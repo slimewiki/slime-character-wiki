@@ -609,5 +609,14 @@
     "battle3": "Condemning Yellow Demon",
     "battle4": "Elegant White Retainer",
     "mini1": "Dark Violet Butler"
+  },
+  {
+    "id": "protectorofpeace2",
+    "name": "Protector of Peace 2.0",
+    "protector": "Saintly Sage",
+    "battle1": "Everlasting Elegance",
+    "battle2": "Devoted Dark Demon",
+    "battle3": "Majestic Maidservant",
+    "mini1": "Minister of Music"
   }
 ]
