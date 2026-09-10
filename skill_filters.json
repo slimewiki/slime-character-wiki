@@ -20834,11 +20834,101 @@
           "condition_condition_effect_type_name": "NotActive"
         }
       ]
+    },
+    {
+      "master_skill_filter_group_id": 21500000000295,
+      "category_id": 6,
+      "category_name": "Special",
+      "sub_category_id": 22,
+      "release_label": "",
+      "label": "Soul of Unity<br>Combo Count UP",
+      "localized": {
+        "localize_id": 21500000000295,
+        "sub_category_label": "Soul of Unity<br>Combo Count UP",
+        "release_label": "202609_lottery_chloe_stepup_scout_part3_start"
+      },
+      "filters": [
+        {
+          "master_skill_filter_id": 21400000000842,
+          "condition_type": 1,
+          "buff_buff_type": 1,
+          "buff_parameter_type": 0,
+          "card_target_type": 6,
+          "card_effect_type": 18,
+          "system_system_effectt_type": 0,
+          "system_normal_card_type": 0,
+          "condition_target_type": 0,
+          "condition_condition_effect_type": 0,
+          "attack_target_type": 0,
+          "attack_master_element_type": "None",
+          "attack_master_attack_type": "Physical",
+          "master_skill_filter_group_id": 21500000000295,
+          "release_label": "202609_lottery_chloe_stepup_scout_part3_start",
+          "plus_minus_type": false,
+          "buff_target_type": 0,
+          "condition_type_name": "CardEffect",
+          "condition_target_type_name": "RivalSideOne",
+          "attack_target_type_name": "RivalSideOne",
+          "buff_target_type_name": "RivalSideOne",
+          "buff_buff_type_name": "Buff",
+          "buff_parameter_type_name": "Hp",
+          "card_target_type_name": "Mighty",
+          "card_effect_type_name": "AddCombo",
+          "system_system_effectt_type_name": "ChangeHandCardTypeFromTechnique",
+          "system_normal_card_type_name": "Technique",
+          "condition_condition_effect_type_name": "NotActive"
+        }
+      ]
+    },
+    {
+      "master_skill_filter_group_id": 21500000000296,
+      "category_id": 6,
+      "category_name": "Special",
+      "sub_category_id": 23,
+      "release_label": "",
+      "label": "Soul of Skills<br>Combo Count UP",
+      "localized": {
+        "localize_id": 21500000000296,
+        "sub_category_label": "Soul of Skills<br>Combo Count UP",
+        "release_label": "202609_lottery_chloe_stepup_scout_part3_start"
+      },
+      "filters": [
+        {
+          "master_skill_filter_id": 21400000000843,
+          "condition_type": 1,
+          "buff_buff_type": 1,
+          "buff_parameter_type": 0,
+          "card_target_type": 0,
+          "card_effect_type": 18,
+          "system_system_effectt_type": 0,
+          "system_normal_card_type": 0,
+          "condition_target_type": 0,
+          "condition_condition_effect_type": 0,
+          "attack_target_type": 0,
+          "attack_master_element_type": "None",
+          "attack_master_attack_type": "Physical",
+          "master_skill_filter_group_id": 21500000000296,
+          "release_label": "202609_lottery_chloe_stepup_scout_part3_start",
+          "plus_minus_type": false,
+          "buff_target_type": 0,
+          "condition_type_name": "CardEffect",
+          "condition_target_type_name": "RivalSideOne",
+          "attack_target_type_name": "RivalSideOne",
+          "buff_target_type_name": "RivalSideOne",
+          "buff_buff_type_name": "Buff",
+          "buff_parameter_type_name": "Hp",
+          "card_target_type_name": "NormalTechnique",
+          "card_effect_type_name": "AddCombo",
+          "system_system_effectt_type_name": "ChangeHandCardTypeFromTechnique",
+          "system_normal_card_type_name": "Technique",
+          "condition_condition_effect_type_name": "NotActive"
+        }
+      ]
     }
   ],
   "meta": {
-    "base_dir": "/tmp/wiki_gl_ni7sxw6f",
-    "text_asset_dir": "/tmp/wiki_gl_ni7sxw6f/TextAsset",
+    "base_dir": "/tmp/wiki_gl_y7l28x0w",
+    "text_asset_dir": "/tmp/wiki_gl_y7l28x0w/TextAsset",
     "dump_cs_path": "/home/runner/work/gameless-wiki-update/gameless-wiki-update/dump.cs"
   }
 }

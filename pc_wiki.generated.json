@@ -146280,6 +146280,520 @@
       ]
     },
     {
+      "master_pc_id": 160689,
+      "name": "Leon Cromwell",
+      "affiliation_name": "Noblest Saber",
+      "rarity": 6,
+      "element": "EnhancedEarth",
+      "attack_type": "Physical",
+      "weapon_type": "Spear",
+      "tactics_type": "Charge",
+      "master_strategy_type_group_label": "Charge",
+      "master_character_tactics_type": "ExtremeAttack",
+      "master_pc_level_group_id": 1612,
+      "master_statusboard_id": 1700001612,
+      "master_enhanced_statusboard_id": 190000200000081,
+      "character_role": "Attacker",
+      "ultimate_type": "Attack",
+      "stats": {
+        "hp": 1170,
+        "attack": 680,
+        "defense": 508,
+        "existence": 2358
+      },
+      "images": {
+        "icon": "Image/Character/PC/LeonAristocratic/7/LeonAristocratic_7_CharaPartyM",
+        "full": "Image/Character/PC/LeonAristocratic/7/LeonAristocratic_7_CharaInfo"
+      },
+      "forces": [
+        {
+          "label": "event_16",
+          "name": "Protector of Peace",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000048"
+        },
+        {
+          "label": "team_4",
+          "name": "Octagram Demon Lord",
+          "group": "team",
+          "icon_path": "Image/IcCategory/team/category_140000000000028"
+        },
+        {
+          "label": "ablity_7",
+          "name": "Wholehearted Devotion",
+          "group": "ability",
+          "icon_path": "Image/IcCategory/ability/category_140000000000024"
+        },
+        {
+          "label": "tribe_5",
+          "name": "Heart of a Hero",
+          "group": "ability",
+          "icon_path": "Image/IcCategory/tribe/category_140000000000014"
+        },
+        {
+          "label": "tribe_1",
+          "name": "Otherworlder",
+          "group": "tribe",
+          "icon_path": "Image/IcCategory/tribe/category_140000000000010"
+        }
+      ],
+      "skills": [
+        {
+          "slot": "special_skill",
+          "label": "LeonAristocratic_special_22",
+          "kind": "special",
+          "name": "Grande Croix",
+          "description_max_level": "Unleashes an all-target earth physical attack for <color=#2BE41D>475%</color> normal damage\n\nUse 200% of secret skill gauge to change to Ultimate Soul of Combos: Damage x2.5, Massively increases damage to weak attributes",
+          "icon_path": "Image/Character/PC/LeonAristocratic/7/LeonAristocratic_7_CharaCard",
+          "cost": null,
+          "battle_attack_effects": [
+            {
+              "target_type": 1,
+              "attack_type": "Physical",
+              "element_type": "EnhancedEarth",
+              "attack_calc_type": 0,
+              "attack_base_type": 0,
+              "attack_base_value": 0,
+              "base_effect_value": 27000,
+              "level_add_effect_value": 20500,
+              "effect_value": 47500
+            }
+          ],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 7002,
+          "special_skill_type": "Attack"
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "LeonAristocratic_buff_23",
+          "kind": "buff",
+          "name": "Unbending Pursuit",
+          "description_max_level": "Changes non-Unity soul x<color=#2BE41D>1</color> into Soul of Unity, Combo Addition: Soul of Skills +<color=#2BE41D>1</color> (Turns: 1; Combo Limit: 6)\nIncreases own and <color=#FFFF00>Chloe Aubert's</color> secret skill gauge by <color=#2BE41D>20%</color>\nDecreases own and <color=#FFFF00>Chloe Aubert's</color> skill cost by <color=#2BE41D>20</color> (Cannot go below each skill's initial cost)\nGenerates Soul of Combos for characters whose Secret Skill Gauge is 100% or more\n\nAwakened Skill: Increases secret skill gauge effect amount by x<color=#2BE41D>10</color> after 6 turns from the start of battle",
+          "icon_path": "Image/Skill/041/13/{1}/IcSkill_041_13_{1}_{0}",
+          "cost": 25,
+          "battle_attack_effects": [
+            {
+              "target_type": 3,
+              "attack_type": "SpecialPoint",
+              "element_type": "EnhancedEarth",
+              "attack_calc_type": 2,
+              "attack_base_type": 0,
+              "attack_base_value": 0,
+              "base_effect_value": 2000,
+              "level_add_effect_value": 0,
+              "effect_value": 2000
+            }
+          ],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 0,
+              "card_effect_type": 18,
+              "base_effect_value": 1,
+              "level_add_effect_value": 0,
+              "effect_value": 1,
+              "base_effect_max_value": 1,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 1
+            }
+          ],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 3,
+              "normal_card_type": 6,
+              "base_effect_value": 1,
+              "level_add_effect_value": 0,
+              "effect_value": 1,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            },
+            {
+              "system_effect_type": 31,
+              "normal_card_type": 5,
+              "base_effect_value": 20,
+              "level_add_effect_value": 0,
+              "effect_value": 20,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            },
+            {
+              "system_effect_type": 52,
+              "normal_card_type": 5,
+              "base_effect_value": 6,
+              "level_add_effect_value": 0,
+              "effect_value": 6,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": 67,
+          "skill_change_type": "Magic Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000150,
+              "category_name": "BuffChangeAct",
+              "sub_category_label": "All → Unity",
+              "effect_family": "system",
+              "raw_effect_polarity": "utility",
+              "change_source_label": "All",
+              "change_target_label": "Unity"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000156,
+              "category_name": "Special",
+              "sub_category_label": "Skill Cost DOWN",
+              "effect_family": "system"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000164,
+              "category_name": "GageUP",
+              "sub_category_label": "Secret Skill Gauge UP",
+              "effect_family": "attack",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000276,
+              "category_name": "Special",
+              "sub_category_label": "Instant Generation:<br>Soul of Combos",
+              "effect_family": "system"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000296,
+              "category_name": "Special",
+              "sub_category_label": "Soul of Skills<br>Combo Count UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "LeonAristocratic_buff_24",
+          "kind": "buff",
+          "name": "Bloodstained Seal",
+          "description_max_level": "Increases earth ATK and dark ATK for all allies including rearguard by <color=#2BE41D>200%</color> (Turns: 2)\nIncreases Soul of Combos damage by <color=#2BE41D>100%</color> (Turns: 2)",
+          "icon_path": "Image/Skill/003/01/{1}/IcSkill_003_01_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 309,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 18000,
+              "level_add_effect_value": 2000,
+              "effect_value": 20000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 315,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 18000,
+              "level_add_effect_value": 2000,
+              "effect_value": 20000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 4,
+              "card_effect_type": 0,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000,
+              "base_effect_max_value": 10000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 10000
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": 65,
+          "skill_change_type": "Attack Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000010,
+              "category_name": "DamageUP",
+              "sub_category_label": "Earth ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000012,
+              "category_name": "DamageUP",
+              "sub_category_label": "Dark ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000086,
+              "category_name": "DamageUP",
+              "sub_category_label": "Soul of Combos Damage UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            }
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "slot": "arousal_trait",
+          "label": "LeonAristocratic_debuff_50",
+          "kind": "debuff",
+          "name": "Charge - Protection DOWN Initial Conditions",
+          "description_max_level": "When you use souls while the enemy has a protection gauge with 120% or higher, the enemy is afflicted with a protection seal (Turns: 1; Uses by this character per battle: 1)",
+          "icon_path": "Image/ArenaPassiveSkill/031/02/1/IcArenaPassiveSkill_031_02_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 23,
+              "normal_card_type": 5,
+              "base_effect_value": 0,
+              "level_add_effect_value": 0,
+              "effect_value": 0,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Initial Conditions",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000131,
+              "category_name": "AbnormalCondition",
+              "sub_category_label": "Protection Seal",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "LeonAristocratic_passive_30",
+          "kind": "passive",
+          "name": "Troop - Protection UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases protection gauge by 5 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/14/1/IcPassiveSkill_041_14_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 24,
+              "normal_card_type": 5,
+              "base_effect_value": 5,
+              "level_add_effect_value": 0,
+              "effect_value": 5,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 1/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000134,
+              "category_name": "GageUP",
+              "sub_category_label": "Protection Gauge UP",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "LeonAristocratic_debuff_51",
+          "kind": "debuff",
+          "name": "Charge - Protection DOWN",
+          "description_max_level": "When you use souls while the enemy has a protection gauge with 100% or higher, the enemy is afflicted with a protection seal (Turns: 1; Uses by this character per battle: 1)",
+          "icon_path": "Image/ArenaPassiveSkill/031/02/2/IcArenaPassiveSkill_031_02_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 23,
+              "normal_card_type": 5,
+              "base_effect_value": 0,
+              "level_add_effect_value": 0,
+              "effect_value": 0,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 2/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000131,
+              "category_name": "AbnormalCondition",
+              "sub_category_label": "Protection Seal",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "LeonAristocratic_passive_31",
+          "kind": "passive",
+          "name": "Troop - Protection UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases protection gauge by 7 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/14/2/IcPassiveSkill_041_14_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 24,
+              "normal_card_type": 5,
+              "base_effect_value": 7,
+              "level_add_effect_value": 0,
+              "effect_value": 7,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 3/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000134,
+              "category_name": "GageUP",
+              "sub_category_label": "Protection Gauge UP",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "LeonAristocratic_passive_32",
+          "kind": "passive",
+          "name": "Soul Combo - Pierce Power UP",
+          "description_max_level": "When you unleash a 6 combo attack with Soul of Skills, increases own pierce power by 10% for the next turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/021/02/1/IcPassiveSkill_021_02_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 305,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 1000,
+              "level_add_effect_value": 0,
+              "effect_value": 1000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 4/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000021,
+              "category_name": "DamageUP",
+              "sub_category_label": "Pierce Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "LeonAristocratic_passive_33",
+          "kind": "passive",
+          "name": "Soul Combo - Pierce Power UP",
+          "description_max_level": "When you unleash a 6 combo attack with Soul of Skills, increases own pierce power by 15% for the next turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/021/02/2/IcPassiveSkill_021_02_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 305,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 1500,
+              "level_add_effect_value": 0,
+              "effect_value": 1500
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 5/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000021,
+              "category_name": "DamageUP",
+              "sub_category_label": "Pierce Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        }
+      ],
+      "ex_abilities": [
+        {
+          "name": "Individual Mercy",
+          "description": "Increases own following status when Chloe Aubert is assigned to a battle slot.",
+          "effects": [
+            "<color=#2BE41D>Increases pierce power by 12%</color>"
+          ]
+        },
+        {
+          "name": "Physical Mercy",
+          "description": "Increases own following status in accordance with the number of physical attack characters assigned to battle slots.",
+          "effects": [
+            "<color=#2BE41D>Increases HP by 396</color>",
+            "<color=#2BE41D>Increases ATK by 200</color>",
+            "<color=#2BE41D>Increases DEF by 116</color>"
+          ]
+        }
+      ],
+      "release_date": "2026/09/10",
+      "facilities": [
+        "Forest Supply Corps Base +30%",
+        "Geological Survey Station +10%"
+      ]
+    },
+    {
       "master_pc_id": 250001,
       "name": "Orc Disaster",
       "affiliation_name": "Starved",
@@ -183570,6 +184084,11 @@
               "master_skill_filter_group_id": 21500000000145,
               "category_name": "BuffChangeAct",
               "sub_category_label": "All → Secrets"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000295,
+              "category_name": "Special",
+              "sub_category_label": "Soul of Unity<br>Combo Count UP"
             }
           ]
         },
@@ -185443,10 +185962,10 @@
     }
   },
   "meta": {
-    "character_count": 445,
-    "base_dir": "/tmp/wiki_gl_ni7sxw6f",
+    "character_count": 446,
+    "base_dir": "/tmp/wiki_gl_y7l28x0w",
     "text_asset_dirs": [
-      "/tmp/wiki_gl_ni7sxw6f/TextAsset"
+      "/tmp/wiki_gl_y7l28x0w/TextAsset"
     ],
     "asset_bundle_dir": null,
     "dump_cs_path": "/home/runner/work/gameless-wiki-update/gameless-wiki-update/dump.cs"
