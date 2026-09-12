@@ -3,4 +3,4 @@
 :HL["/slime-character-wiki/_next/static/chunks/3227tkor5ivpj.css","style"]
 :HL["/slime-character-wiki/_next/static/chunks/2-ss8qh--dvgr.css","style"]
 :HL["/slime-character-wiki/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4184,"slots":{"children":{"name":"characters","param":null,"prefetchHints":4196,"slots":{"children":{"name":"characterId","param":{"type":"d","key":"150408","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"ysqYXE09cnq_uND4YozkY"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4184,"slots":{"children":{"name":"characters","param":null,"prefetchHints":4196,"slots":{"children":{"name":"characterId","param":{"type":"d","key":"150408","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"qx-up5NLXiOPBlatKpqEB"}
