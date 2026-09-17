@@ -110428,7 +110428,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -110717,6 +110717,199 @@
               "target_type_name": "RivalSideOne",
               "target_team": "enemy",
               "target_scope": "single"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "GobwaDefault_debuff_824",
+          "kind": "debuff",
+          "name": "Rookie's Resolve",
+          "description_max_level": "Decreases all targets' all attribute resistance by <color=#2BE41D>-55%</color> (Turns: 2)\nDecreases all targets' weakness resistance by <color=#2BE41D>-50%</color> (Turns: 2)\nDecreases all targets' damage resistance while controlled by <color=#2BE41D>20%</color> (Turns:2)",
+          "icon_path": "Image/Skill/016/09/{1}/IcSkill_016_09_{1}_{0}",
+          "cost": 0,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 1,
+              "parameter_type": 1401,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -4000,
+              "level_add_effect_value": -1000,
+              "effect_value": -5000
+            },
+            {
+              "target_type": 1,
+              "parameter_type": 416,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -5500,
+              "level_add_effect_value": 0,
+              "effect_value": -5500
+            },
+            {
+              "target_type": 1,
+              "parameter_type": 415,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -5500,
+              "level_add_effect_value": 0,
+              "effect_value": -5500
+            },
+            {
+              "target_type": 1,
+              "parameter_type": 414,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -5500,
+              "level_add_effect_value": 0,
+              "effect_value": -5500
+            },
+            {
+              "target_type": 1,
+              "parameter_type": 413,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -5500,
+              "level_add_effect_value": 0,
+              "effect_value": -5500
+            },
+            {
+              "target_type": 1,
+              "parameter_type": 412,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -5500,
+              "level_add_effect_value": 0,
+              "effect_value": -5500
+            },
+            {
+              "target_type": 1,
+              "parameter_type": 411,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -5500,
+              "level_add_effect_value": 0,
+              "effect_value": -5500
+            },
+            {
+              "target_type": 1,
+              "parameter_type": 410,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -5500,
+              "level_add_effect_value": 0,
+              "effect_value": -5500
+            },
+            {
+              "target_type": 1,
+              "parameter_type": 1805,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -2000,
+              "level_add_effect_value": 0,
+              "effect_value": -2000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5200110,
+          "skill_change_type": "Defense Changing",
+          "is_skill_change": true,
+          "replaces_label": "GobwaDefault_debuff_24",
+          "replaces_slot": "active_skill_2",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000034,
+              "category_name": "DamageUP",
+              "sub_category_label": "Fire Resistance DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000035,
+              "category_name": "DamageUP",
+              "sub_category_label": "Water Resistance DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000036,
+              "category_name": "DamageUP",
+              "sub_category_label": "Wind Resistance DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000037,
+              "category_name": "DamageUP",
+              "sub_category_label": "Space Resistance DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000038,
+              "category_name": "DamageUP",
+              "sub_category_label": "Earth Resistance DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000039,
+              "category_name": "DamageUP",
+              "sub_category_label": "Light Resistance DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000040,
+              "category_name": "DamageUP",
+              "sub_category_label": "Dark Resistance DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000045,
+              "category_name": "DamageUP",
+              "sub_category_label": "Weakness Resistance DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000274,
+              "category_name": "DamageUP",
+              "sub_category_label": "Damage Resistance<br>Under Status Abnormality DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
             }
           ]
         }
@@ -111395,7 +111588,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -111784,7 +111977,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -126057,7 +126250,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000071,
       "character_role": "Attacker",
@@ -126538,7 +126731,7 @@
           "battle_card_effects": [],
           "battle_system_effects": [],
           "skill_level_group_id": null,
-          "unlock": "Awaken 5/5",
+          "unlock": "Awaken 0/5",
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000001,
@@ -127114,7 +127307,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000071,
       "character_role": "Attacker",
@@ -127530,7 +127723,7 @@
             }
           ],
           "skill_level_group_id": null,
-          "unlock": "Awaken 5/5",
+          "unlock": "Awaken 0/5",
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000132,
@@ -127576,7 +127769,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000071,
       "character_role": "Attacker",
@@ -127940,7 +128133,7 @@
             }
           ],
           "skill_level_group_id": null,
-          "unlock": "Awaken 5/5",
+          "unlock": "Awaken 0/5",
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000132,
@@ -134639,7 +134832,7 @@
           "label": "DiabloBlackHero_debuff_24",
           "kind": "debuff",
           "name": "Stake of Conviction",
-          "description_max_level": "Increases own secret skill gauge by <color=#2BE41D>200%</color>\nNullify the status effects of all targets\nIncreases all souls' skill point increase by <color=#2BE41D>50%</color> (Turns: 5)\n(Uses per battle: 1) ",
+          "description_max_level": "Increases own secret skill gauge by <color=#2BE41D>200%</color>\nNullify the status effects of all targets\nIncreases all souls' skill point increase by <color=#2BE41D>50%</color> (Turns: 5)\n(Uses per battle: 1)",
           "icon_path": "Image/Skill/092/02/{1}/IcSkill_092_02_{1}_{0}",
           "cost": 50,
           "battle_attack_effects": [
@@ -172555,7 +172748,7 @@
       "rarity": 5,
       "element": "SpecialEffectElementEnhancedHoly",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 2562,
+      "master_pc_level_group_id": 52562,
       "master_statusboard_id": 1700002562,
       "master_enhanced_statusboard_id": null,
       "master_leader_skill_element_type_2": "Physics",
@@ -172659,7 +172852,7 @@
           "label": "ShunaMilitary_bless_02",
           "kind": "bless",
           "name": "Path to Victory",
-          "description_max_level": "Changes all souls into Soul of Secrets, then changes Soul of Secrets x<color=#2BE41D>2</color> into Soul of Unity\nInflicts dread on all targets (Turns: 2); increases weakening effects by 1.4 times\nDecreases all targets' physical attack damage resistance by <color=#2BE41D>-100%</color> (Turns: 2)",
+          "description_max_level": "Changes all souls into Soul of Secrets, then changes Soul of Secrets x<color=#2BE41D>2</color> into Soul of Unity\nInflicts dread on all targets (Turns: 2); increases weakening effects by 1.4 times\nDecreases all targets' physical attack damage resistance by <color=#2BE41D>-120%</color> (Turns: 2)",
           "icon_path": "L10NAssets/En/Image/Skill/042/09/{1}/IcSkill_042_09_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -172669,9 +172862,9 @@
               "parameter_type": 600,
               "value_type": 1,
               "buff_type": 2,
-              "base_effect_value": -9000,
+              "base_effect_value": -11000,
               "level_add_effect_value": -1000,
-              "effect_value": -10000
+              "effect_value": -12000
             }
           ],
           "battle_condition_effects": [
@@ -176426,7 +176619,7 @@
           "label": "ElmesiaDevil_bless_01",
           "kind": "bless",
           "name": "Unbinding Blessing",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Scourge Wielder</color> Force characters to light attribute and dark attribute enemies by <color=#2BE41D>120%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill points by <color=#2BE41D>30</color> (Max 4 times; can exceed cost limit)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Scourge Wielder</color> Force characters to light and dark attribute enemies by <color=#2BE41D>120%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill points by <color=#2BE41D>30</color> (Max 4 times; can exceed cost limit)",
           "icon_path": "Image/Skill/072/08/{1}/IcSkill_072_08_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -176798,7 +176991,7 @@
           "label": "ErenDevil_bless_01",
           "kind": "bless",
           "name": "Charming Mask",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Scourge Wielder</color> Force characters to light attribute and dark attribute enemies by <color=#2BE41D>30%</color>; increases <color=#FFFF00>Scourge Wielder</color> Force characters' ATK by <color=#2BE41D>12%</color>",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Scourge Wielder</color> Force characters to light and dark attribute enemies by <color=#2BE41D>30%</color>; increases <color=#FFFF00>Scourge Wielder</color> Force characters' ATK by <color=#2BE41D>12%</color>",
           "icon_path": "Image/Skill/072/08/{1}/IcSkill_072_08_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -177680,7 +177873,7 @@
       "rarity": 5,
       "element": "SpecialEffectElementEnhancedAir",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 2562,
+      "master_pc_level_group_id": 52562,
       "master_statusboard_id": 1700002562,
       "master_enhanced_statusboard_id": null,
       "master_leader_skill_element_type_2": "Magic",
@@ -178344,7 +178537,7 @@
           "label": "RaphaelAsuna_bless_01",
           "kind": "bless",
           "name": "Heavenly Insight",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Assault Team</color> and <color=#FFFF00>Dungeon Crawler</color> Force characters to wind attribute and dark attribute enemies by <color=#2BE41D>130%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Assault Team</color> and <color=#FFFF00>Dungeon Crawler</color> Force characters to wind and dark attribute enemies by <color=#2BE41D>130%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
           "icon_path": "Image/Skill/072/06/{1}/IcSkill_072_06_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -185963,9 +186156,9 @@
   },
   "meta": {
     "character_count": 446,
-    "base_dir": "/tmp/wiki_gl_m3dupur0",
+    "base_dir": "/tmp/wiki_gl_ll9c3obo",
     "text_asset_dirs": [
-      "/tmp/wiki_gl_m3dupur0/TextAsset"
+      "/tmp/wiki_gl_ll9c3obo/TextAsset"
     ],
     "asset_bundle_dir": null,
     "dump_cs_path": "/home/runner/work/gameless-wiki-update/gameless-wiki-update/dump.cs"
