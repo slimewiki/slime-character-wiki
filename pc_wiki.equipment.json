@@ -2142,6 +2142,23 @@
     "effect2": null
   },
   {
+    "id": 1111160039,
+    "type": "weapon",
+    "name": "Adamant Insect General's Gauntlet",
+    "rarity": 8,
+    "base_rarity": 3,
+    "weapon_type": "Fist",
+    "image": "/Image/Equip/Weapon/160039/Weapon_160039_WeaponM.png",
+    "max_level": 80,
+    "max_atk": 928,
+    "max_def": 0,
+    "max_hp": 0,
+    "level_group_id": 43,
+    "release_label": "202610_event_secretary_start",
+    "effect1": "When equipped by Razul, the Adamant Insect General, increases ATK by <color=#2BE41D>20</color>%",
+    "effect2": null
+  },
+  {
     "id": 1111160041,
     "type": "weapon",
     "name": "Sorcerous Secretary's Bracelet",
@@ -4519,6 +4536,23 @@
     "level_group_id": 53,
     "release_label": "202609_event_step_up_training_start",
     "effect1": "When equipped by Venom, the Devoted Dark Demon, increases DEF by <color=#2BE41D>20</color>%",
+    "effect2": null
+  },
+  {
+    "id": 1121310112,
+    "type": "armor",
+    "name": "Adamant Insect General's Mantle",
+    "rarity": 8,
+    "base_rarity": 3,
+    "weapon_type": null,
+    "image": "/Image/Equip/Armor/310112/Armor_310112_ArmorM.png",
+    "max_level": 80,
+    "max_atk": 0,
+    "max_def": 2158,
+    "max_hp": 0,
+    "level_group_id": 53,
+    "release_label": "202610_event_secretary_start",
+    "effect1": "When equipped by Razul, the Adamant Insect General, increases DEF by <color=#2BE41D>20</color>%",
     "effect2": null
   },
   {

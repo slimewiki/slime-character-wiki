@@ -69738,6 +69738,59 @@
           "rare_levelup_item_group_id": 1042
         }
       ]
+    },
+    {
+      "heartprint_id": 2500096,
+      "still_type": "rare",
+      "master_still_rare_id": 210000001000039,
+      "tab_type": 140,
+      "order": 986,
+      "picture_path": "Image/SkillStill/2500096/skill_still_2500096_{0}",
+      "release_label": "202610_event_secretary_start",
+      "title": "A Secretary's Pride",
+      "skill_description": "Increases Warrior's Mind Force characters' critical power by <color=#2BE41D>20%</color> (Turns: 1)",
+      "display_character_id": 210000002000010,
+      "effect_type": 5,
+      "rare_level_group_id": 1032,
+      "unlock_conditions": [
+        {
+          "type": 6,
+          "target_count": 2,
+          "quest_id": null,
+          "quest_name": null,
+          "target_season": null,
+          "required_still_id": null,
+          "required_still_title": null,
+          "required_still_season": null
+        }
+      ],
+      "facility_source": null,
+      "arena_rank_source": null,
+      "event_source": {
+        "quest_name": "These are the skills of a secretary",
+        "event_id": 10000000111560,
+        "is_missable": true
+      },
+      "rare_levels": [
+        {
+          "level": 1,
+          "active_skill_label": "StillSkill_group_1032_event_secretary_start_01",
+          "skill_description": "Increases Warrior's Mind Force characters' critical power by <color=#2BE41D>10%</color> (Turns: 1)",
+          "rare_levelup_item_group_id": 1041
+        },
+        {
+          "level": 2,
+          "active_skill_label": "StillSkill_group_1032_event_secretary_start_02",
+          "skill_description": "Increases Warrior's Mind Force characters' critical power by <color=#2BE41D>15%</color> (Turns: 1)",
+          "rare_levelup_item_group_id": 1042
+        },
+        {
+          "level": 3,
+          "active_skill_label": "StillSkill_group_1032_event_secretary_start_03",
+          "skill_description": "Increases Warrior's Mind Force characters' critical power by <color=#2BE41D>20%</color> (Turns: 1)",
+          "rare_levelup_item_group_id": 1042
+        }
+      ]
     }
   ]
 }

@@ -146987,6 +146987,914 @@
       ]
     },
     {
+      "master_pc_id": 160693,
+      "name": "Shion",
+      "affiliation_name": "First Secretary",
+      "rarity": 6,
+      "element": "EnhancedWind",
+      "attack_type": "Magic",
+      "weapon_type": "Largesword",
+      "tactics_type": "Speed",
+      "master_strategy_type_group_label": "Speed",
+      "master_character_tactics_type": "ExtremeAttack",
+      "master_pc_level_group_id": 1612,
+      "master_statusboard_id": 1700001612,
+      "master_enhanced_statusboard_id": 190000200000081,
+      "character_role": "Attacker",
+      "ultimate_type": "Support",
+      "stats": {
+        "hp": 1137,
+        "attack": 671,
+        "defense": 539,
+        "existence": 2347
+      },
+      "images": {
+        "icon": "Image/Character/PC/ShionBodyguard/7/ShionBodyguard_7_CharaPartyM",
+        "full": "Image/Character/PC/ShionBodyguard/7/ShionBodyguard_7_CharaInfo"
+      },
+      "forces": [
+        {
+          "label": "event_9",
+          "name": "Warrior's Mind",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000039"
+        },
+        {
+          "label": "event_14",
+          "name": "Exalted Champions",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000046"
+        },
+        {
+          "label": "team_2",
+          "name": "Tempest Elite",
+          "group": "team",
+          "icon_path": "Image/IcCategory/team/category_140000000000026"
+        },
+        {
+          "label": "tribe_2",
+          "name": "Ogre's Pride",
+          "group": "tribe",
+          "icon_path": "Image/IcCategory/tribe/category_140000000000011"
+        },
+        {
+          "label": "ablity_7",
+          "name": "Wholehearted Devotion",
+          "group": "ability",
+          "icon_path": "Image/IcCategory/ability/category_140000000000024"
+        }
+      ],
+      "skills": [
+        {
+          "slot": "special_skill",
+          "label": "ShionBodyguard_special_22",
+          "kind": "special",
+          "name": "Dimension Wave",
+          "description_max_level": "Unleashes a single-target wind magic attack for <color=#2BE41D>270%</color> normal damage\nIncreases weakness strike of <color=#FFFF00>Warrior's Mind</color> Force characters including rearguard until the end of battle by <color=#2BE41D>115</color> + <color=#2BE41D>10%</color> (Unlimited)\nUse 200% of secret skill gauge to change to Ultimate Soul of Combos: Weakness Strike effect amount x2; Additional Effect: Increases critical power by <color=#2BE41D>15%</color>",
+          "icon_path": "Image/Character/PC/ShionBodyguard/7/ShionBodyguard_7_CharaCard",
+          "cost": null,
+          "battle_attack_effects": [
+            {
+              "target_type": 0,
+              "attack_type": "Magic",
+              "element_type": "EnhancedWind",
+              "attack_calc_type": 0,
+              "attack_base_type": 0,
+              "attack_base_value": 0,
+              "base_effect_value": 27000,
+              "level_add_effect_value": 0,
+              "effect_value": 27000
+            }
+          ],
+          "battle_buff_effects": [
+            {
+              "target_type": 4,
+              "parameter_type": 1400,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 6000,
+              "level_add_effect_value": 5500,
+              "effect_value": 11500
+            },
+            {
+              "target_type": 4,
+              "parameter_type": 1400,
+              "value_type": 7,
+              "buff_type": 1,
+              "base_effect_value": 1000,
+              "level_add_effect_value": 0,
+              "effect_value": 1000
+            },
+            {
+              "target_type": 4,
+              "parameter_type": 304,
+              "value_type": 6,
+              "buff_type": 1,
+              "base_effect_value": 1500,
+              "level_add_effect_value": 0,
+              "effect_value": 1500
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 7004,
+          "special_skill_type": "Support",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000020,
+              "category_name": "DamageUP",
+              "sub_category_label": "Critical Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAllWithDeck",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000029,
+              "category_name": "DamageUP",
+              "sub_category_label": "Weakness Strike UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAllWithDeck",
+              "target_team": "ally",
+              "target_scope": "all"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "ShionBodyguard_buff_23",
+          "kind": "buff",
+          "name": "Confidant's Crude Strength",
+          "description_max_level": "Increases critical rate and super critical rate for all allies including rearguard by <color=#2BE41D>100%</color> (Turns: 3)\nDecreases all targets' critical resistance by <color=#2BE41D>-100%</color> (Turns: 3)",
+          "icon_path": "Image/Skill/025/03/{1}/IcSkill_025_03_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 1701,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 100,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000
+            },
+            {
+              "target_type": 1,
+              "parameter_type": 405,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -9000,
+              "level_add_effect_value": -1000,
+              "effect_value": -10000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 68,
+          "skill_change_type": "Attack Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000025,
+              "category_name": "DamageUP",
+              "sub_category_label": "Critical Rate UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000041,
+              "category_name": "DamageUP",
+              "sub_category_label": "Critical Resistance DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000272,
+              "category_name": "DamageUP",
+              "sub_category_label": "Super Critical Rate UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "ShionBodyguard_buff_24",
+          "kind": "buff",
+          "name": "Violently Violet Command",
+          "description_max_level": "Increases all Soul of Secrets gauges' increase by <color=#2BE41D>100%</color> (Turns: 2)\nSets Soul of Combos' gauge increase to the same amount as Soul of Secrets', with gauge-altering effects applied (Turns: 2)",
+          "icon_path": "L10NAssets/En/Image/Skill/041/09/{1}/IcSkill_041_09_{1}_{0}",
+          "cost": 25,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 2,
+              "card_effect_type": 1,
+              "base_effect_value": 9000,
+              "level_add_effect_value": 1000,
+              "effect_value": 10000,
+              "base_effect_max_value": 50000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 50000
+            },
+            {
+              "card_target_type": 4,
+              "card_effect_type": 15,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000,
+              "base_effect_max_value": 10000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 10000
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": 35,
+          "skill_change_type": "Magic Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000091,
+              "category_name": "GageUP",
+              "sub_category_label": "[Secrets] All Gauges Increase UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000261,
+              "category_name": "Special",
+              "sub_category_label": "Soul of Combos<br>Gauge Active",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            }
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "slot": "arousal_trait",
+          "label": "ShionBodyguard_debuff_50",
+          "kind": "debuff",
+          "name": "Switch - Skill Seal Initial Conditions",
+          "description_max_level": "When you switch this character to the vanguard and activate souls, all enemies' magic-changing battle skills are sealed (Turns: 1; Uses by this character per battle: 1)",
+          "icon_path": "L10NAssets/En/Image/ArenaPassiveSkill/031/29/1/IcArenaPassiveSkill_031_29_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 24,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 1000,
+              "base_value2": 1000,
+              "base_value3": 1000,
+              "level_add_value": 0,
+              "effect_value": 1000
+            }
+          ],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Initial Conditions"
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "ShionBodyguard_passive_30",
+          "kind": "passive",
+          "name": "Troop - Skill UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases skill points by 3 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/15/1/IcPassiveSkill_041_15_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 21,
+              "normal_card_type": 5,
+              "base_effect_value": 3,
+              "level_add_effect_value": 0,
+              "effect_value": 3,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 1/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000132,
+              "category_name": "GageUP",
+              "sub_category_label": "Skill Point UP",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "ShionBodyguard_debuff_51",
+          "kind": "debuff",
+          "name": "Switch - Skill Seal",
+          "description_max_level": "When you switch this character to the vanguard and activate souls, all enemies' magic-changing battle skills are sealed (Turns: 1; Uses by this character per battle: 2)",
+          "icon_path": "L10NAssets/En/Image/ArenaPassiveSkill/031/29/2/IcArenaPassiveSkill_031_29_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 24,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 1000,
+              "base_value2": 1000,
+              "base_value3": 1000,
+              "level_add_value": 0,
+              "effect_value": 1000
+            }
+          ],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 2/5"
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "ShionBodyguard_passive_31",
+          "kind": "passive",
+          "name": "Troop - Skill UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases skill points by 5 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/15/2/IcPassiveSkill_041_15_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 21,
+              "normal_card_type": 5,
+              "base_effect_value": 5,
+              "level_add_effect_value": 0,
+              "effect_value": 5,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 3/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000132,
+              "category_name": "GageUP",
+              "sub_category_label": "Skill Point UP",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "ShionBodyguard_passive_32",
+          "kind": "passive",
+          "name": "Troop - Protection UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases protection gauge by 5 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/14/1/IcPassiveSkill_041_14_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 24,
+              "normal_card_type": 5,
+              "base_effect_value": 5,
+              "level_add_effect_value": 0,
+              "effect_value": 5,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 4/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000134,
+              "category_name": "GageUP",
+              "sub_category_label": "Protection Gauge UP",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "ShionBodyguard_passive_33",
+          "kind": "passive",
+          "name": "Troop - Protection UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases protection gauge by 7 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/14/2/IcPassiveSkill_041_14_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 24,
+              "normal_card_type": 5,
+              "base_effect_value": 7,
+              "level_add_effect_value": 0,
+              "effect_value": 7,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 5/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000134,
+              "category_name": "GageUP",
+              "sub_category_label": "Protection Gauge UP",
+              "effect_family": "system"
+            }
+          ]
+        }
+      ],
+      "ex_abilities": [
+        {
+          "name": "Individual Mercy",
+          "description": "Increases own following status when Rimuru Tempest is assigned to a battle slot.",
+          "effects": [
+            "<color=#2BE41D>Increases critical damage by 12%</color>"
+          ]
+        },
+        {
+          "name": "Magic Blessing",
+          "description": "Increases other troop members' following status in accordance with the number of magic attack characters assigned to battle slots.",
+          "effects": [
+            "<color=#2BE41D>Increases HP by 102</color>",
+            "<color=#2BE41D>Increases ATK by 50</color>",
+            "<color=#2BE41D>Increases DEF by 28</color>"
+          ]
+        }
+      ],
+      "release_date": "2026/09/26",
+      "facilities": [
+        "Ocean Supply Corps Base +30%",
+        "Armory +10%"
+      ]
+    },
+    {
+      "master_pc_id": 160694,
+      "name": "Razul",
+      "affiliation_name": "Adamant Insect General",
+      "rarity": 5,
+      "element": "EnhancedEarth",
+      "attack_type": "Magic",
+      "weapon_type": "Knuckle",
+      "tactics_type": "Speed",
+      "master_strategy_type_group_label": "Speed",
+      "master_character_tactics_type": "ExtremeAverage",
+      "master_pc_level_group_id": 1621,
+      "master_statusboard_id": 1700001621,
+      "master_enhanced_statusboard_id": 190000200000091,
+      "character_role": "Attacker",
+      "ultimate_type": "Attack",
+      "stats": {
+        "hp": 972,
+        "attack": 606,
+        "defense": 439,
+        "existence": 2017
+      },
+      "images": {
+        "icon": "Image/Character/PC/RazzleDefault/7/RazzleDefault_7_CharaPartyM",
+        "full": "Image/Character/PC/RazzleDefault/7/RazzleDefault_7_CharaInfo"
+      },
+      "forces": [
+        {
+          "label": "event_9",
+          "name": "Warrior's Mind",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000039"
+        },
+        {
+          "label": "team_6",
+          "name": "Antagonist",
+          "group": "team",
+          "icon_path": "Image/IcCategory/team/category_140000000000030"
+        },
+        {
+          "label": "event_15",
+          "name": "Determination to Prosper",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000047"
+        },
+        {
+          "label": "event_12",
+          "name": "Flashback Beatdown Emissary",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000044"
+        }
+      ],
+      "skills": [
+        {
+          "slot": "special_skill",
+          "label": "RazzleDefault_special_22",
+          "kind": "special",
+          "name": "Merciless Overbreak",
+          "description_max_level": "Unleashes a single-target earth magic attack for <color=#2BE41D>570%</color> normal damage\n\nUse 200% of secret skill gauge to change to EX Soul of Combos: Damage x1.5",
+          "icon_path": "Image/Character/PC/RazzleDefault/7/RazzleDefault_7_CharaCard",
+          "cost": null,
+          "battle_attack_effects": [
+            {
+              "target_type": 0,
+              "attack_type": "Magic",
+              "element_type": "EnhancedEarth",
+              "attack_calc_type": 0,
+              "attack_base_type": 0,
+              "attack_base_value": 0,
+              "base_effect_value": 45000,
+              "level_add_effect_value": 12000,
+              "effect_value": 57000
+            }
+          ],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5009,
+          "special_skill_type": "Attack"
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "RazzleDefault_buff_23",
+          "kind": "buff",
+          "name": "Intimidating Insectoid",
+          "description_max_level": "Changes <color=#FFFF00>Warrior's Mind</color> Force characters' soul x<color=#2BE41D>3</color> into Soul of Secrets\nIncreases Soul of Secrets' protection gauge increase by <color=#2BE41D>30%</color> (Turns: 1)\nIncreases Soul of Secrets' skill point increase by <color=#2BE41D>30%</color> (Turns: 1)",
+          "icon_path": "L10NAssets/En/Image/Skill/042/14/{1}/IcSkill_042_14_{1}_{0}",
+          "cost": 30,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 2,
+              "card_effect_type": 5,
+              "base_effect_value": 3000,
+              "level_add_effect_value": 0,
+              "effect_value": 3000,
+              "base_effect_max_value": 10000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 10000
+            },
+            {
+              "card_target_type": 2,
+              "card_effect_type": 4,
+              "base_effect_value": 2000,
+              "level_add_effect_value": 1000,
+              "effect_value": 3000,
+              "base_effect_max_value": 10000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 10000
+            }
+          ],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 3,
+              "normal_card_type": 1,
+              "base_effect_value": 3,
+              "level_add_effect_value": 0,
+              "effect_value": 3,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": 56,
+          "skill_change_type": "Magic Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000095,
+              "category_name": "GageUP",
+              "sub_category_label": "[Secrets] Skill Point Increase UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000099,
+              "category_name": "GageUP",
+              "sub_category_label": "[Secrets] Protection Gauge Increase UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000145,
+              "category_name": "BuffChangeAct",
+              "sub_category_label": "All → Secrets",
+              "effect_family": "system",
+              "raw_effect_polarity": "utility",
+              "change_source_label": "All",
+              "change_target_label": "Secrets"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "RazzleDefault_buff_24",
+          "kind": "buff",
+          "name": "Insectoid Stance",
+          "description_max_level": "Applies Wind attribute to own attacks (Turns: 1)\nIncreases wind ATK and earth ATK for all allies including rearguard by <color=#2BE41D>100%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/102/01/{1}/IcSkill_102_01_{1}_{0}",
+          "cost": 50,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 1602,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 311,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 9000,
+              "level_add_effect_value": 1000,
+              "effect_value": 10000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 309,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 9000,
+              "level_add_effect_value": 1000,
+              "effect_value": 10000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 79,
+          "skill_change_type": "Attack Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000008,
+              "category_name": "DamageUP",
+              "sub_category_label": "Wind ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000010,
+              "category_name": "DamageUP",
+              "sub_category_label": "Earth ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000265,
+              "category_name": "DamageUP",
+              "sub_category_label": "Apply Attribute",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "slot": "arousal_trait",
+          "label": "RazzleDefault_debuff_50",
+          "kind": "debuff",
+          "name": "Soul Combo - Skill DOWN Initial Conditions",
+          "description_max_level": "When you unleash a 2 combo, all of the enemy's Soul of Skills gauge increases are decreased by 5% (Turns: 1; Uses by this character per battle: 1)",
+          "icon_path": "L10NAssets/En/Image/ArenaPassiveSkill/041/08/1/IcArenaPassiveSkill_041_08_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 0,
+              "card_effect_type": 1,
+              "base_effect_value": -500,
+              "level_add_effect_value": 0,
+              "effect_value": -500,
+              "base_effect_max_value": 99999,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 99999
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Initial Conditions",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000089,
+              "category_name": "GageUP",
+              "sub_category_label": "[Skills] All Gauges Increase UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000102,
+              "category_name": "GageDown",
+              "sub_category_label": "[Skills] All Gauges Increase DOWN",
+              "effect_family": "card",
+              "raw_effect_polarity": "debuff"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "RazzleDefault_passive_30",
+          "kind": "passive",
+          "name": "HP - Critical Power UP",
+          "description_max_level": "When you have 50% or more HP, increases own critical power by 5% at start of turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/025/02/1/IcPassiveSkill_025_02_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 304,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 500,
+              "level_add_effect_value": 0,
+              "effect_value": 500
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 1/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000020,
+              "category_name": "DamageUP",
+              "sub_category_label": "Critical Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "RazzleDefault_debuff_51",
+          "kind": "debuff",
+          "name": "Soul Combo - Skill DOWN",
+          "description_max_level": "When you unleash a 2 combo, all of the enemy's Soul of Skills gauge increases are decreased by 10% (Turns: 1; Uses by this character per battle: 1)",
+          "icon_path": "L10NAssets/En/Image/ArenaPassiveSkill/041/08/2/IcArenaPassiveSkill_041_08_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 0,
+              "card_effect_type": 1,
+              "base_effect_value": -1000,
+              "level_add_effect_value": 0,
+              "effect_value": -1000,
+              "base_effect_max_value": 99999,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 99999
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 2/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000089,
+              "category_name": "GageUP",
+              "sub_category_label": "[Skills] All Gauges Increase UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000102,
+              "category_name": "GageDown",
+              "sub_category_label": "[Skills] All Gauges Increase DOWN",
+              "effect_family": "card",
+              "raw_effect_polarity": "debuff"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "RazzleDefault_passive_31",
+          "kind": "passive",
+          "name": "HP - Critical Power UP",
+          "description_max_level": "When you have 50% or more HP, increases own critical power by 8% at start of turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/025/02/2/IcPassiveSkill_025_02_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 304,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 800,
+              "level_add_effect_value": 0,
+              "effect_value": 800
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 3/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000020,
+              "category_name": "DamageUP",
+              "sub_category_label": "Critical Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        }
+      ],
+      "ex_abilities": [
+        {
+          "name": "Individual Mercy",
+          "description": "Increases own following status when Luminus Valentine is assigned to a battle slot.",
+          "effects": [
+            "<color=#2BE41D>Increases guard power by 16%</color>"
+          ]
+        },
+        {
+          "name": "Magic Blessing",
+          "description": "Increases other troop members' following status in accordance with the number of magic attack characters assigned to battle slots.",
+          "effects": [
+            "<color=#2BE41D>Increases HP by 136</color>",
+            "<color=#2BE41D>Increases ATK by 39</color>",
+            "<color=#2BE41D>Increases DEF by 39</color>"
+          ]
+        }
+      ],
+      "release_date": "2026/09/26",
+      "facilities": [
+        "Farm +30%",
+        "Encampment +10%"
+      ]
+    },
+    {
       "master_pc_id": 250001,
       "name": "Orc Disaster",
       "affiliation_name": "Starved",
@@ -185670,6 +186578,709 @@
         "Space Magic Device +200%",
         "Symbol of Protection +100%"
       ]
+    },
+    {
+      "master_pc_id": 260691,
+      "name": "Diablo",
+      "affiliation_name": "Second Secretary",
+      "rarity": 6,
+      "element": "SpecialEffectElementEnhancedWater",
+      "master_character_tactics_type": "ExtremeAttack",
+      "master_pc_level_group_id": 2612,
+      "master_statusboard_id": 1700002612,
+      "master_enhanced_statusboard_id": null,
+      "master_leader_skill_element_type_2": "SpecialEffectElementEnhancedDark",
+      "master_leader_skill_level_group_id": 8005,
+      "master_assist_leader_skill_level_group_id": 8002,
+      "attack_type": null,
+      "weapon_type": null,
+      "tactics_type": "Speed",
+      "character_role": "Supporter",
+      "ultimate_type": null,
+      "stats": {
+        "hp": 432,
+        "attack": 310,
+        "defense": 171,
+        "existence": 913
+      },
+      "images": {
+        "icon": "Image/Character/Bless/DiabloPrimeMinister/7/DiabloPrimeMinister_7_BlessPartyM",
+        "full": "Image/Character/Bless/DiabloPrimeMinister/7/DiabloPrimeMinister_7_BlessInfo"
+      },
+      "forces": [],
+      "skills": [
+        {
+          "slot": "leader_skill",
+          "label": "DiabloPrimeMinister_bless_01",
+          "kind": "bless",
+          "name": "Confidant's Captivating Darkness",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Warrior's Mind</color> Force characters to water and dark attribute enemies by <color=#2BE41D>175%</color>; increases magic characters' HP, ATK, and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill points by <color=#2BE41D>30</color> (Max 4 times; can exceed cost limit)",
+          "icon_path": "Image/Skill/072/04/{1}/IcSkill_072_04_{1}_{0}",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 4,
+              "parameter_type": 1303,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 8000,
+              "level_add_effect_value": 9500,
+              "effect_value": 17500
+            },
+            {
+              "target_type": 4,
+              "parameter_type": 1306,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 8000,
+              "level_add_effect_value": 9500,
+              "effect_value": 17500
+            },
+            {
+              "target_type": 4,
+              "parameter_type": 1812,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 2500,
+              "level_add_effect_value": 0,
+              "effect_value": 2500
+            },
+            {
+              "target_type": 4,
+              "parameter_type": 1,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 2500,
+              "level_add_effect_value": 0,
+              "effect_value": 2500
+            },
+            {
+              "target_type": 4,
+              "parameter_type": 2,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 2500,
+              "level_add_effect_value": 0,
+              "effect_value": 2500
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 47,
+              "normal_card_type": 5,
+              "base_effect_value": 30,
+              "level_add_effect_value": 0,
+              "effect_value": 30,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": 8005,
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000001,
+              "category_name": "DamageUP",
+              "sub_category_label": "ATK UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000014,
+              "category_name": "DamageUP",
+              "sub_category_label": "Damage to Water UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000019,
+              "category_name": "DamageUP",
+              "sub_category_label": "Damage to Dark UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000048,
+              "category_name": "DamageDown",
+              "sub_category_label": "DEF UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000132,
+              "category_name": "GageUP",
+              "sub_category_label": "Skill Point UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000162,
+              "category_name": "Special",
+              "sub_category_label": "Max HP UP"
+            }
+          ]
+        },
+        {
+          "slot": "bless_skill",
+          "label": "DiabloPrimeMinister_bless_02",
+          "kind": "bless",
+          "name": "Infinite Desire",
+          "description_max_level": "Changes all souls into Soul of Secrets, then changes Soul of Secrets x<color=#2BE41D>2</color> into Soul of Unity\nIncreases skill points by <color=#2BE41D>45</color> (Can exceed cost limit)\nIncreases critical power for all allies including rearguard by <color=#2BE41D>200%</color> (Turns: 2)\nDecreases all targets' secret skill damage resistance by <color=#2BE41D>-100%</color> (Turns: 2)",
+          "icon_path": "L10NAssets/En/Image/Skill/042/09/{1}/IcSkill_042_09_{1}_{0}",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 304,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 20000,
+              "level_add_effect_value": 0,
+              "effect_value": 20000
+            },
+            {
+              "target_type": 1,
+              "parameter_type": 616,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -9000,
+              "level_add_effect_value": -1000,
+              "effect_value": -10000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 3,
+              "normal_card_type": 1,
+              "base_effect_value": 6,
+              "level_add_effect_value": 0,
+              "effect_value": 6,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            },
+            {
+              "system_effect_type": 2,
+              "normal_card_type": 6,
+              "base_effect_value": 2,
+              "level_add_effect_value": 0,
+              "effect_value": 2,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            },
+            {
+              "system_effect_type": 47,
+              "normal_card_type": 5,
+              "base_effect_value": 45,
+              "level_add_effect_value": 0,
+              "effect_value": 45,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": 3033,
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000020,
+              "category_name": "DamageUP",
+              "sub_category_label": "Critical Power UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000047,
+              "category_name": "DamageUP",
+              "sub_category_label": "Secret Skill Damage Resistance DOWN"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000132,
+              "category_name": "GageUP",
+              "sub_category_label": "Skill Point UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000145,
+              "category_name": "BuffChangeAct",
+              "sub_category_label": "All → Secrets"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000152,
+              "category_name": "BuffChangeAct",
+              "sub_category_label": "Secrets → Unity"
+            }
+          ]
+        },
+        {
+          "slot": "assist_leader_skill",
+          "label": "DiabloPrimeMinister_bless_03",
+          "kind": "bless",
+          "name": "Confidant's Captivating Darkness (Support)",
+          "description_max_level": "Increases speed-type magic characters' ATK by <color=#2BE41D>25%</color>; increases DEF by <color=#2BE41D>5%</color>",
+          "icon_path": "Image/Skill/001/01/{1}/IcSkill_001_01_{1}_{0}",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 4,
+              "parameter_type": 1,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 300,
+              "level_add_effect_value": 2200,
+              "effect_value": 2500
+            },
+            {
+              "target_type": 4,
+              "parameter_type": 2,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 500,
+              "level_add_effect_value": 0,
+              "effect_value": 500
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 8002,
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000001,
+              "category_name": "DamageUP",
+              "sub_category_label": "ATK UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000048,
+              "category_name": "DamageDown",
+              "sub_category_label": "DEF UP"
+            }
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "slot": "arousal_trait",
+          "label": "DiabloPrimeMinister_buff_17",
+          "kind": "buff",
+          "name": "Charge - Concentrate Initial Conditions",
+          "description_max_level": "When you use souls while 1 or more enemy characters have a secret skill gauge with 100% or more filled, the single-target attack damage resistance of all allies is increased by 30% (Turns: 1; Uses by this character per battle: 1)",
+          "icon_path": "Image/ArenaPassiveSkill/013/03/1/IcArenaPassiveSkill_013_03_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 602,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 3000,
+              "level_add_effect_value": 0,
+              "effect_value": 3000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Initial Conditions"
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "DiabloPrimeMinister_passive_15",
+          "kind": "passive",
+          "name": "HP - M-ATK UP",
+          "description_max_level": "When 3 vanguard have 75% or more HP, increases all allies' magic ATK by 5% at start of turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/005/03/1/IcPassiveSkill_005_03_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 301,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 500,
+              "level_add_effect_value": 0,
+              "effect_value": 500
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 1/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000002,
+              "category_name": "DamageUP",
+              "sub_category_label": "M-ATK UP"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "DiabloPrimeMinister_buff_18",
+          "kind": "buff",
+          "name": "Charge - Concentrate",
+          "description_max_level": "When you use souls while 1 or more enemy characters have a secret skill gauge with 100% or more filled, the single-target attack damage resistance of all allies is increased by 30% (Turns: 1; Uses by this character per battle: 2)",
+          "icon_path": "Image/ArenaPassiveSkill/013/03/2/IcArenaPassiveSkill_013_03_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 602,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 3000,
+              "level_add_effect_value": 0,
+              "effect_value": 3000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 2/5"
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "DiabloPrimeMinister_passive_16",
+          "kind": "passive",
+          "name": "HP - M-ATK UP",
+          "description_max_level": "When 3 vanguard have 75% or more HP, increases all allies' magic ATK by 8% at start of turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/005/03/2/IcPassiveSkill_005_03_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 301,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 800,
+              "level_add_effect_value": 0,
+              "effect_value": 800
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 3/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000002,
+              "category_name": "DamageUP",
+              "sub_category_label": "M-ATK UP"
+            }
+          ]
+        }
+      ],
+      "ex_abilities": [],
+      "release_date": "2026/09/26",
+      "facilities": [
+        "Water Magic Device +200%",
+        "Symbol of Protection +100%"
+      ]
+    },
+    {
+      "master_pc_id": 260692,
+      "name": "Maria Rozzo",
+      "affiliation_name": "Saint of the West",
+      "rarity": 5,
+      "element": "SpecialEffectElementEnhancedWater",
+      "master_character_tactics_type": "ExtremeAverage",
+      "master_pc_level_group_id": 2621,
+      "master_statusboard_id": 1700002621,
+      "master_enhanced_statusboard_id": null,
+      "master_leader_skill_element_type_2": "SpecialEffectElementEnhancedDark",
+      "master_leader_skill_level_group_id": 6010,
+      "master_assist_leader_skill_level_group_id": 6008,
+      "attack_type": null,
+      "weapon_type": null,
+      "tactics_type": "Speed",
+      "character_role": "Supporter",
+      "ultimate_type": null,
+      "stats": {
+        "hp": 352,
+        "attack": 227,
+        "defense": 125,
+        "existence": 704
+      },
+      "images": {
+        "icon": "Image/Character/Bless/MariaForCard/7/MariaForCard_7_BlessPartyM",
+        "full": "Image/Character/Bless/MariaForCard/7/MariaForCard_7_BlessInfo"
+      },
+      "forces": [],
+      "skills": [
+        {
+          "slot": "leader_skill",
+          "label": "MariaForCard_bless_01",
+          "kind": "bless",
+          "name": "Devotee's Wings of Dedication",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Warrior's Mind</color> Force characters to water and dark attribute enemies by <color=#2BE41D>80%</color>; increases <color=#FFFF00>Warrior's Mind</color> Force characters' ATK by <color=#2BE41D>20%</color>; increases DEF by <color=#2BE41D>10%</color>",
+          "icon_path": "Image/Skill/072/04/{1}/IcSkill_072_04_{1}_{0}",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 4,
+              "parameter_type": 1303,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 4000,
+              "level_add_effect_value": 4000,
+              "effect_value": 8000
+            },
+            {
+              "target_type": 4,
+              "parameter_type": 1306,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 4000,
+              "level_add_effect_value": 4000,
+              "effect_value": 8000
+            },
+            {
+              "target_type": 4,
+              "parameter_type": 1,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 2000,
+              "level_add_effect_value": 0,
+              "effect_value": 2000
+            },
+            {
+              "target_type": 4,
+              "parameter_type": 2,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 1000,
+              "level_add_effect_value": 0,
+              "effect_value": 1000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 6010,
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000001,
+              "category_name": "DamageUP",
+              "sub_category_label": "ATK UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000014,
+              "category_name": "DamageUP",
+              "sub_category_label": "Damage to Water UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000019,
+              "category_name": "DamageUP",
+              "sub_category_label": "Damage to Dark UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000048,
+              "category_name": "DamageDown",
+              "sub_category_label": "DEF UP"
+            }
+          ]
+        },
+        {
+          "slot": "bless_skill",
+          "label": "MariaForCard_bless_02",
+          "kind": "bless",
+          "name": "Blessing of Holy Love",
+          "description_max_level": "Changes all souls into Soul of Secrets\nIncreases skill points by <color=#2BE41D>15</color>\nIncreases critical power for all allies including rearguard by <color=#2BE41D>100%</color> (Turns: 1)\nIncreases ATK for all allies including rearguard by <color=#2BE41D>50%</color> (Turns: 1)",
+          "icon_path": "L10NAssets/En/Image/Skill/042/09/{1}/IcSkill_042_09_{1}_{0}",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 304,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 1,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 4000,
+              "level_add_effect_value": 1000,
+              "effect_value": 5000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 3,
+              "normal_card_type": 1,
+              "base_effect_value": 6,
+              "level_add_effect_value": 0,
+              "effect_value": 6,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            },
+            {
+              "system_effect_type": 21,
+              "normal_card_type": 5,
+              "base_effect_value": 15,
+              "level_add_effect_value": 0,
+              "effect_value": 15,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": 3032,
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000001,
+              "category_name": "DamageUP",
+              "sub_category_label": "ATK UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000020,
+              "category_name": "DamageUP",
+              "sub_category_label": "Critical Power UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000132,
+              "category_name": "GageUP",
+              "sub_category_label": "Skill Point UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000145,
+              "category_name": "BuffChangeAct",
+              "sub_category_label": "All → Secrets"
+            }
+          ]
+        },
+        {
+          "slot": "assist_leader_skill",
+          "label": "MariaForCard_bless_03",
+          "kind": "bless",
+          "name": "Devotee's Wings of Dedication (Support)",
+          "description_max_level": "Increases <color=#FFFF00>Warrior's Mind</color> Force characters' ATK by <color=#2BE41D>12%</color>; increases DEF by <color=#2BE41D>3%</color>",
+          "icon_path": "Image/Skill/001/01/{1}/IcSkill_001_01_{1}_{0}",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 4,
+              "parameter_type": 1,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 100,
+              "level_add_effect_value": 1100,
+              "effect_value": 1200
+            },
+            {
+              "target_type": 4,
+              "parameter_type": 2,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 300,
+              "level_add_effect_value": 0,
+              "effect_value": 300
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 6008,
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000001,
+              "category_name": "DamageUP",
+              "sub_category_label": "ATK UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000048,
+              "category_name": "DamageDown",
+              "sub_category_label": "DEF UP"
+            }
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "slot": "arousal_trait",
+          "label": "MariaForCard_passive_15",
+          "kind": "passive",
+          "name": "HP - ATK UP",
+          "description_max_level": "When 3 vanguard have 50% or more HP, increases all allies' ATK by 3% at start of turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/001/01/1/IcPassiveSkill_001_01_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 1,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 300,
+              "level_add_effect_value": 0,
+              "effect_value": 300
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 1/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000001,
+              "category_name": "DamageUP",
+              "sub_category_label": "ATK UP"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "MariaForCard_passive_16",
+          "kind": "passive",
+          "name": "HP - ATK UP",
+          "description_max_level": "When 3 vanguard have 50% or more HP, increases all allies' ATK by 5% at start of turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/001/01/2/IcPassiveSkill_001_01_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 1,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 500,
+              "level_add_effect_value": 0,
+              "effect_value": 500
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 3/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000001,
+              "category_name": "DamageUP",
+              "sub_category_label": "ATK UP"
+            }
+          ]
+        }
+      ],
+      "ex_abilities": [],
+      "release_date": "2026/09/26",
+      "facilities": [
+        "Water Magic Device +200%",
+        "Symbol of Protection +100%"
+      ]
     }
   ],
   "condition_effect_metadata": {
@@ -186155,10 +187766,10 @@
     }
   },
   "meta": {
-    "character_count": 446,
-    "base_dir": "/tmp/wiki_gl_ozv9gzpc",
+    "character_count": 450,
+    "base_dir": "/tmp/wiki_gl_wpluypcg",
     "text_asset_dirs": [
-      "/tmp/wiki_gl_ozv9gzpc/TextAsset"
+      "/tmp/wiki_gl_wpluypcg/TextAsset"
     ],
     "asset_bundle_dir": null,
     "dump_cs_path": "/home/runner/work/gameless-wiki-update/gameless-wiki-update/dump.cs"
