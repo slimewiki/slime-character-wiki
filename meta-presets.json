@@ -619,5 +619,13 @@
     "battle3": "Majestic Maidservant",
     "mini1": "Minister of Music",
     "battle4": "Noblest Saber"
+  },
+  {
+    "id": "warriorsmind3",
+    "name": "Warrior's Mind 3.0",
+    "protector": "Second Secretary",
+    "battle1": "First Secretary",
+    "battle2": "Adamant Insect General",
+    "mini1": "Saint of the West"
   }
 ]
