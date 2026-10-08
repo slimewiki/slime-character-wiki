@@ -134666,7 +134666,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000071,
       "character_role": "Attacker",
@@ -135096,7 +135096,7 @@
           "battle_card_effects": [],
           "battle_system_effects": [],
           "skill_level_group_id": null,
-          "unlock": "Awaken 5/5",
+          "unlock": "Awaken 0/5",
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000020,
@@ -181632,7 +181632,7 @@
       "rarity": 5,
       "element": "SpecialEffectElementEnhancedWater",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 2562,
+      "master_pc_level_group_id": 52562,
       "master_statusboard_id": 1700002562,
       "master_enhanced_statusboard_id": null,
       "master_leader_skill_element_type_2": "Physics",
@@ -187767,9 +187767,9 @@
   },
   "meta": {
     "character_count": 450,
-    "base_dir": "/tmp/wiki_gl_4b9wbpod",
+    "base_dir": "/tmp/wiki_gl_wg390elp",
     "text_asset_dirs": [
-      "/tmp/wiki_gl_4b9wbpod/TextAsset"
+      "/tmp/wiki_gl_wg390elp/TextAsset"
     ],
     "asset_bundle_dir": null,
     "dump_cs_path": "/home/runner/work/gameless-wiki-update/gameless-wiki-update/dump.cs"
