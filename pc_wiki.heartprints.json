@@ -67802,6 +67802,59 @@
       ]
     },
     {
+      "heartprint_id": 2103801,
+      "still_type": "rare",
+      "master_still_rare_id": 210000001000043,
+      "tab_type": 156,
+      "order": 1,
+      "picture_path": "Image/SkillStill/2103801/skill_still_2103801_{0}",
+      "release_label": "202610_event_infinite_trials_51_start",
+      "title": "Physical Comedy",
+      "skill_description": "Decreases the attack-changing skill cost by <color=#2BE41D>20</color> for vanguard allies (Cannot go below each skill's initial cost)",
+      "display_character_id": 210000002000002,
+      "effect_type": 4,
+      "rare_level_group_id": 1035,
+      "unlock_conditions": [
+        {
+          "type": 6,
+          "target_count": 2,
+          "quest_id": null,
+          "quest_name": null,
+          "target_season": null,
+          "required_still_id": null,
+          "required_still_title": null,
+          "required_still_season": null
+        }
+      ],
+      "facility_source": null,
+      "arena_rank_source": null,
+      "event_source": {
+        "quest_name": "Mirror-Realm Infinite Trials B60F (8-Turn Limit Battle)",
+        "event_id": 10000000110130,
+        "is_missable": true
+      },
+      "rare_levels": [
+        {
+          "level": 1,
+          "active_skill_label": "StillSkill_group_1035_event_infinite_trials_51_start_01",
+          "skill_description": "Decreases the attack-changing skill cost by <color=#2BE41D>5</color> for vanguard allies (Cannot go below each skill's initial cost)",
+          "rare_levelup_item_group_id": 1052
+        },
+        {
+          "level": 2,
+          "active_skill_label": "StillSkill_group_1035_event_infinite_trials_51_start_02",
+          "skill_description": "Decreases the attack-changing skill cost by <color=#2BE41D>10</color> for vanguard allies (Cannot go below each skill's initial cost)",
+          "rare_levelup_item_group_id": 1062
+        },
+        {
+          "level": 3,
+          "active_skill_label": "StillSkill_group_1035_event_infinite_trials_51_start_03",
+          "skill_description": "Decreases the attack-changing skill cost by <color=#2BE41D>20</color> for vanguard allies (Cannot go below each skill's initial cost)",
+          "rare_levelup_item_group_id": 1062
+        }
+      ]
+    },
+    {
       "heartprint_id": 2104501,
       "still_type": "rare",
       "master_still_rare_id": 210000001000028,
@@ -68311,6 +68364,218 @@
           "active_skill_label": "StillSkill_group_1022_kokoronoe_boost_mission_start_03",
           "skill_description": "Applies barrier stack x<color=#2BE41D>3</color> to ally with the lowest percentage of HP",
           "rare_levelup_item_group_id": 1081
+        }
+      ]
+    },
+    {
+      "heartprint_id": 2107301,
+      "still_type": "rare",
+      "master_still_rare_id": 210000001000045,
+      "tab_type": 148,
+      "order": 982,
+      "picture_path": "Image/SkillStill/2107301/skill_still_2107301_{0}",
+      "release_label": "202610_event_infinite_trials_51_start",
+      "title": "I Am Invincible!",
+      "skill_description": "Gives all allies Secret Skill Vitalization: Increases secret skill gauge by <color=#2BE41D>30%</color> up to 1 time when the enemy's turn ends",
+      "display_character_id": 210000002000002,
+      "effect_type": 1,
+      "rare_level_group_id": 1037,
+      "unlock_conditions": [
+        {
+          "type": 6,
+          "target_count": 2,
+          "quest_id": null,
+          "quest_name": null,
+          "target_season": null,
+          "required_still_id": null,
+          "required_still_title": null,
+          "required_still_season": null
+        }
+      ],
+      "facility_source": null,
+      "arena_rank_source": null,
+      "event_source": {
+        "quest_name": "Mirror-Realm Infinite Trials B90F (8-Turn Limit Battle)",
+        "event_id": 10000000110130,
+        "is_missable": true
+      },
+      "rare_levels": [
+        {
+          "level": 1,
+          "active_skill_label": "StillSkill_group_1037_event_infinite_trials_51_start_01",
+          "skill_description": "Gives all allies Secret Skill Vitalization: Increases secret skill gauge by <color=#2BE41D>10%</color> up to 1 time when the enemy's turn ends",
+          "rare_levelup_item_group_id": 1052
+        },
+        {
+          "level": 2,
+          "active_skill_label": "StillSkill_group_1037_event_infinite_trials_51_start_02",
+          "skill_description": "Gives all allies Secret Skill Vitalization: Increases secret skill gauge by <color=#2BE41D>20%</color> up to 1 time when the enemy's turn ends",
+          "rare_levelup_item_group_id": 1062
+        },
+        {
+          "level": 3,
+          "active_skill_label": "StillSkill_group_1037_event_infinite_trials_51_start_03",
+          "skill_description": "Gives all allies Secret Skill Vitalization: Increases secret skill gauge by <color=#2BE41D>30%</color> up to 1 time when the enemy's turn ends",
+          "rare_levelup_item_group_id": 1062
+        }
+      ]
+    },
+    {
+      "heartprint_id": 2107401,
+      "still_type": "rare",
+      "master_still_rare_id": 210000001000041,
+      "tab_type": 148,
+      "order": 985,
+      "picture_path": "Image/SkillStill/2107401/skill_still_2107401_{0}",
+      "release_label": "202610_event_infinite_trials_51_start",
+      "title": "Final Boss Fight",
+      "skill_description": "Increases skill cost limit until the end of battle by <color=#2BE41D>20</color> (Max: 999)",
+      "display_character_id": 210000002000018,
+      "effect_type": 5,
+      "rare_level_group_id": 1033,
+      "unlock_conditions": [
+        {
+          "type": 6,
+          "target_count": 2,
+          "quest_id": null,
+          "quest_name": null,
+          "target_season": null,
+          "required_still_id": null,
+          "required_still_title": null,
+          "required_still_season": null
+        }
+      ],
+      "facility_source": null,
+      "arena_rank_source": null,
+      "event_source": {
+        "quest_name": "Mirror-Realm Infinite Trials B100F (8-Turn Limit Battle)",
+        "event_id": 10000000110130,
+        "is_missable": true
+      },
+      "rare_levels": [
+        {
+          "level": 1,
+          "active_skill_label": "StillSkill_group_1033_event_infinite_trials_51_start_01",
+          "skill_description": "Increases skill cost limit until the end of battle by <color=#2BE41D>10</color> (Max: 999)",
+          "rare_levelup_item_group_id": 1052
+        },
+        {
+          "level": 2,
+          "active_skill_label": "StillSkill_group_1033_event_infinite_trials_51_start_02",
+          "skill_description": "Increases skill cost limit until the end of battle by <color=#2BE41D>15</color> (Max: 999)",
+          "rare_levelup_item_group_id": 1062
+        },
+        {
+          "level": 3,
+          "active_skill_label": "StillSkill_group_1033_event_infinite_trials_51_start_03",
+          "skill_description": "Increases skill cost limit until the end of battle by <color=#2BE41D>20</color> (Max: 999)",
+          "rare_levelup_item_group_id": 1062
+        }
+      ]
+    },
+    {
+      "heartprint_id": 2107402,
+      "still_type": "rare",
+      "master_still_rare_id": 210000001000042,
+      "tab_type": 148,
+      "order": 984,
+      "picture_path": "Image/SkillStill/2107402/skill_still_2107402_{0}",
+      "release_label": "202610_event_infinite_trials_51_start",
+      "title": "The Hero's Blow",
+      "skill_description": "Decreases the defense-changing skill cost by <color=#2BE41D>20</color> for vanguard allies (Cannot go below each skill's initial cost)",
+      "display_character_id": 210000002000024,
+      "effect_type": 3,
+      "rare_level_group_id": 1034,
+      "unlock_conditions": [
+        {
+          "type": 6,
+          "target_count": 2,
+          "quest_id": null,
+          "quest_name": null,
+          "target_season": null,
+          "required_still_id": null,
+          "required_still_title": null,
+          "required_still_season": null
+        }
+      ],
+      "facility_source": null,
+      "arena_rank_source": null,
+      "event_source": {
+        "quest_name": "Mirror-Realm Infinite Trials B70F (8-Turn Limit Battle)",
+        "event_id": 10000000110130,
+        "is_missable": true
+      },
+      "rare_levels": [
+        {
+          "level": 1,
+          "active_skill_label": "StillSkill_group_1034_event_infinite_trials_51_start_01",
+          "skill_description": "Decreases the defense-changing skill cost by <color=#2BE41D>5</color> for vanguard allies (Cannot go below each skill's initial cost)",
+          "rare_levelup_item_group_id": 1052
+        },
+        {
+          "level": 2,
+          "active_skill_label": "StillSkill_group_1034_event_infinite_trials_51_start_02",
+          "skill_description": "Decreases the defense-changing skill cost by <color=#2BE41D>10</color> for vanguard allies (Cannot go below each skill's initial cost)",
+          "rare_levelup_item_group_id": 1062
+        },
+        {
+          "level": 3,
+          "active_skill_label": "StillSkill_group_1034_event_infinite_trials_51_start_03",
+          "skill_description": "Decreases the defense-changing skill cost by <color=#2BE41D>20</color> for vanguard allies (Cannot go below each skill's initial cost)",
+          "rare_levelup_item_group_id": 1062
+        }
+      ]
+    },
+    {
+      "heartprint_id": 2107701,
+      "still_type": "rare",
+      "master_still_rare_id": 210000001000044,
+      "tab_type": 144,
+      "order": 983,
+      "picture_path": "Image/SkillStill/2107701/skill_still_2107701_{0}",
+      "release_label": "202610_event_infinite_trials_51_start",
+      "title": "A New Look",
+      "skill_description": "Stuns a single target with the highest ATK (Turns: 1)\nIncreases all allies' stun strike by <color=#2BE41D>10%</color> (Turns: 1)",
+      "display_character_id": 210000002000008,
+      "effect_type": 2,
+      "rare_level_group_id": 1036,
+      "unlock_conditions": [
+        {
+          "type": 6,
+          "target_count": 2,
+          "quest_id": null,
+          "quest_name": null,
+          "target_season": null,
+          "required_still_id": null,
+          "required_still_title": null,
+          "required_still_season": null
+        }
+      ],
+      "facility_source": null,
+      "arena_rank_source": null,
+      "event_source": {
+        "quest_name": "Mirror-Realm Infinite Trials B80F (8-Turn Limit Battle)",
+        "event_id": 10000000110130,
+        "is_missable": true
+      },
+      "rare_levels": [
+        {
+          "level": 1,
+          "active_skill_label": "StillSkill_group_1036_event_infinite_trials_51_start_01",
+          "skill_description": "Stuns a single target with the highest ATK (Turns: 1)",
+          "rare_levelup_item_group_id": 1052
+        },
+        {
+          "level": 2,
+          "active_skill_label": "StillSkill_group_1036_event_infinite_trials_51_start_02",
+          "skill_description": "Stuns a single target with the highest ATK (Turns: 1)\nIncreases all allies' stun strike by <color=#2BE41D>5%</color> (Turns: 1)",
+          "rare_levelup_item_group_id": 1062
+        },
+        {
+          "level": 3,
+          "active_skill_label": "StillSkill_group_1036_event_infinite_trials_51_start_03",
+          "skill_description": "Stuns a single target with the highest ATK (Turns: 1)\nIncreases all allies' stun strike by <color=#2BE41D>10%</color> (Turns: 1)",
+          "rare_levelup_item_group_id": 1062
         }
       ]
     },

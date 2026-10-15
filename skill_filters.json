@@ -11682,6 +11682,36 @@
           "system_system_effectt_type_name": "ExtraTurnAnother",
           "system_normal_card_type_name": "Max",
           "condition_condition_effect_type_name": "NotActive"
+        },
+        {
+          "master_skill_filter_id": 21400000000841,
+          "condition_type": 2,
+          "buff_buff_type": 0,
+          "buff_parameter_type": 0,
+          "card_target_type": 0,
+          "card_effect_type": 0,
+          "system_system_effectt_type": 58,
+          "system_normal_card_type": 5,
+          "condition_target_type": 0,
+          "condition_condition_effect_type": 0,
+          "attack_target_type": 0,
+          "attack_master_element_type": "None",
+          "attack_master_attack_type": "Physical",
+          "master_skill_filter_group_id": 21500000000155,
+          "release_label": "202610_lottery_5th_anniversary_scout_part1_start",
+          "plus_minus_type": true,
+          "buff_target_type": 0,
+          "condition_type_name": "SystemEffect",
+          "condition_target_type_name": "RivalSideOne",
+          "attack_target_type_name": "RivalSideOne",
+          "buff_target_type_name": "RivalSideOne",
+          "buff_buff_type_name": "None",
+          "buff_parameter_type_name": "Hp",
+          "card_target_type_name": "NormalTechnique",
+          "card_effect_type_name": "BuffAttack",
+          "system_system_effectt_type_name": "Unknown(58)",
+          "system_normal_card_type_name": "Max",
+          "condition_condition_effect_type_name": "NotActive"
         }
       ]
     },
@@ -20927,8 +20957,8 @@
     }
   ],
   "meta": {
-    "base_dir": "/tmp/wiki_gl_wg390elp",
-    "text_asset_dir": "/tmp/wiki_gl_wg390elp/TextAsset",
+    "base_dir": "/tmp/wiki_gl_utqowx8w",
+    "text_asset_dir": "/tmp/wiki_gl_utqowx8w/TextAsset",
     "dump_cs_path": "/home/runner/work/gameless-wiki-update/gameless-wiki-update/dump.cs"
   }
 }

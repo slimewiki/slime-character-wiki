@@ -100563,7 +100563,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -100693,6 +100693,66 @@
               "target_type_name": "Self",
               "target_team": "self",
               "target_scope": "self"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "Milim3Anniv_buff_823",
+          "kind": "buff",
+          "name": "Dark Drago Sweep",
+          "description_max_level": "Increases pierce rate for self and physical characters including rearguard by <color=#2BE41D>100%</color> (Turns: 3)\nIncreases synergy rate for magic characters including rearguard by <color=#2BE41D>100%</color> (Turns: 3)",
+          "icon_path": "Image/Skill/021/01/{1}/IcSkill_021_01_{1}_{0}",
+          "cost": 0,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 101,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 8000,
+              "level_add_effect_value": 2000,
+              "effect_value": 10000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 110,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5200020,
+          "skill_change_type": "Attack Changing",
+          "is_skill_change": true,
+          "replaces_label": "Milim3Anniv_buff_23",
+          "replaces_slot": "active_skill_1",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000026,
+              "category_name": "DamageUP",
+              "sub_category_label": "Pierce Rate UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000027,
+              "category_name": "DamageUP",
+              "sub_category_label": "Synergy Rate UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
             }
           ]
         },
@@ -100946,7 +101006,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -101160,6 +101220,69 @@
               "target_scope": "self"
             }
           ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "IzisAwakenPC_buff_824",
+          "kind": "buff",
+          "name": "Portfolio",
+          "description_max_level": "Apply Drago to all magic character allies (Turns: 1)\nIncreases all allies' pierce power by <color=#2BE41D>80%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/031/21/{1}/IcSkill_031_21_{1}_{0}",
+          "cost": 30,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 305,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 7000,
+              "level_add_effect_value": 1000,
+              "effect_value": 8000
+            }
+          ],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 15,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 1000,
+              "base_value2": 1000,
+              "base_value3": 1000,
+              "level_add_value": 0,
+              "effect_value": 1000
+            }
+          ],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5200010,
+          "skill_change_type": "Body and Spirit Changing",
+          "is_skill_change": true,
+          "replaces_label": "IzisAwakenPC_buff_24",
+          "replaces_slot": "active_skill_2",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000021,
+              "category_name": "DamageUP",
+              "sub_category_label": "Pierce Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000120,
+              "category_name": "ConditionChange",
+              "sub_category_label": "Drago",
+              "effect_family": "condition",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
         }
       ],
       "traits": [
@@ -101341,7 +101464,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -101547,6 +101670,67 @@
               "target_scope": "all"
             }
           ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "BenimaruAnotherPC_buff_824",
+          "kind": "buff",
+          "name": "Ogre Reload",
+          "description_max_level": "Gives all allies Secret Skill Vitalization: Increases secret skill gauge by <color=#2BE41D>25%</color> up to 3 times when the enemy's turn ends\nIncreases Soul of Secrets damage by <color=#2BE41D>150%</color> (Turns: 3)",
+          "icon_path": "Image/Skill/031/38/{1}/IcSkill_031_38_{1}_{0}",
+          "cost": 35,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 34,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 2500,
+              "base_value2": 2500,
+              "base_value3": 2500,
+              "level_add_value": 0,
+              "effect_value": 2500
+            }
+          ],
+          "battle_card_effects": [
+            {
+              "card_target_type": 2,
+              "card_effect_type": 0,
+              "base_effect_value": 14000,
+              "level_add_effect_value": 1000,
+              "effect_value": 15000,
+              "base_effect_max_value": 14000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 14000
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5400010,
+          "skill_change_type": "Body and Spirit Changing",
+          "is_skill_change": true,
+          "replaces_label": "BenimaruAnotherPC_buff_24",
+          "replaces_slot": "active_skill_2",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000085,
+              "category_name": "DamageUP",
+              "sub_category_label": "Soul of Secrets Damage UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000128,
+              "category_name": "ConditionChange",
+              "sub_category_label": "Secret Skill Vitalization",
+              "effect_family": "condition",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            }
+          ]
         }
       ],
       "traits": [
@@ -101718,7 +101902,7 @@
       "tactics_type": "Charge",
       "master_strategy_type_group_label": "Charge",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -101850,6 +102034,66 @@
           "battle_system_effects": [],
           "skill_level_group_id": 32,
           "skill_change_type": "Attack Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000022,
+              "category_name": "DamageUP",
+              "sub_category_label": "Synergy Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000027,
+              "category_name": "DamageUP",
+              "sub_category_label": "Synergy Rate UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "Diablo3Anniv_buff_823",
+          "kind": "buff",
+          "name": "Underworld Unleashed",
+          "description_max_level": "Increases Synergy Rate for all allies including rearguard by <color=#2BE41D>100%</color> (Turns: 1)\nIncreases Synergy Power for all allies including rearguard by <color=#2BE41D>120%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/081/01/{1}/IcSkill_081_01_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 110,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 9000,
+              "level_add_effect_value": 1000,
+              "effect_value": 10000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 317,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 12000,
+              "level_add_effect_value": 0,
+              "effect_value": 12000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5200010,
+          "skill_change_type": "Attack Changing",
+          "is_skill_change": true,
+          "replaces_label": "Diablo3Anniv_buff_23",
+          "replaces_slot": "active_skill_1",
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000022,
@@ -102096,7 +102340,7 @@
       "tactics_type": "Charge",
       "master_strategy_type_group_label": "Charge",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -102206,6 +102450,66 @@
           "battle_system_effects": [],
           "skill_level_group_id": 25,
           "skill_change_type": "Attack Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000009,
+              "category_name": "DamageUP",
+              "sub_category_label": "Space ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000012,
+              "category_name": "DamageUP",
+              "sub_category_label": "Dark ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "Raphael3Anniv_buff_823",
+          "kind": "buff",
+          "name": "Tempestuous Thunder",
+          "description_max_level": "Increases space ATK for all allies including rearguard by <color=#2BE41D>230%</color> (Turns: 1)\nIncreases dark ATK for all allies including rearguard by <color=#2BE41D>230%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/003/05/{1}/IcSkill_003_05_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 310,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 22000,
+              "level_add_effect_value": 1000,
+              "effect_value": 23000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 315,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 23000,
+              "level_add_effect_value": 0,
+              "effect_value": 23000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5200010,
+          "skill_change_type": "Attack Changing",
+          "is_skill_change": true,
+          "replaces_label": "Raphael3Anniv_buff_23",
+          "replaces_slot": "active_skill_1",
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000009,
@@ -103097,7 +103401,7 @@
       "tactics_type": "Charge",
       "master_strategy_type_group_label": "Charge",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -103301,6 +103605,66 @@
               "target_scope": "all"
             }
           ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "MaskedHero3Anniv_buff_824",
+          "kind": "buff",
+          "name": "Crescent Bow Strike",
+          "description_max_level": "Increases pierce rate for all allies including rearguard by <color=#2BE41D>100%</color> (Turns: 1)\nIncreases pierce power for all allies including rearguard by <color=#2BE41D>120%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/021/01/{1}/IcSkill_021_01_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 101,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 305,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 11000,
+              "level_add_effect_value": 1000,
+              "effect_value": 12000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5020010,
+          "skill_change_type": "Attack Changing",
+          "is_skill_change": true,
+          "replaces_label": "MaskedHero3Anniv_buff_24",
+          "replaces_slot": "active_skill_2",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000021,
+              "category_name": "DamageUP",
+              "sub_category_label": "Pierce Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000026,
+              "category_name": "DamageUP",
+              "sub_category_label": "Pierce Rate UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            }
+          ]
         }
       ],
       "traits": [
@@ -103472,7 +103836,7 @@
       "tactics_type": "Charge",
       "master_strategy_type_group_label": "Charge",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -103581,6 +103945,67 @@
               "sub_category_label": "Soul of Combos Damage UP",
               "effect_family": "card",
               "raw_effect_polarity": "buff"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "Buran3Anniv_buff_823",
+          "kind": "buff",
+          "name": "Beautiful End",
+          "description_max_level": "Activates Progenitor's Lineage (White) (Turns: 1)\n-All allies' Soul or Soul of Combos damage increasing effects x1.2 (Can multiply with identical effects other than Progenitor's Lineage (White))\nIncreases Soul of Combos damage by <color=#2BE41D>150%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/009/01/{1}/IcSkill_009_01_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 83,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 12000,
+              "base_value2": 12000,
+              "base_value3": 12000,
+              "level_add_value": 0,
+              "effect_value": 12000
+            }
+          ],
+          "battle_card_effects": [
+            {
+              "card_target_type": 4,
+              "card_effect_type": 0,
+              "base_effect_value": 14000,
+              "level_add_effect_value": 1000,
+              "effect_value": 15000,
+              "base_effect_max_value": 14000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 14000
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5400010,
+          "skill_change_type": "Magic Changing",
+          "is_skill_change": true,
+          "replaces_label": "Buran3Anniv_buff_23",
+          "replaces_slot": "active_skill_1",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000086,
+              "category_name": "DamageUP",
+              "sub_category_label": "Soul of Combos Damage UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000293,
+              "category_name": "ConditionChange",
+              "sub_category_label": "Progenitor's Lineage",
+              "effect_family": "condition",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
             }
           ]
         },
@@ -103822,7 +104247,7 @@
       "tactics_type": "Defense",
       "master_strategy_type_group_label": "Defense",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -103948,6 +104373,66 @@
           "battle_system_effects": [],
           "skill_level_group_id": 32,
           "skill_change_type": "Attack Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000026,
+              "category_name": "DamageUP",
+              "sub_category_label": "Pierce Rate UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000047,
+              "category_name": "DamageUP",
+              "sub_category_label": "Secret Skill Damage Resistance DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "MomijiXmas2024_buff_823",
+          "kind": "buff",
+          "name": "Staunch Adoration",
+          "description_max_level": "Increases pierce rate for all allies including rearguard by <color=#2BE41D>100%</color> (Turns: 1)\nDecreases all targets' secret skill damage resistance by <color=#2BE41D>-100%</color> (Turns: 1); Decreases by <color=#2BE41D>40%</color> based on number of times all allies receive Secret Skill attack (Total Max: 180%)",
+          "icon_path": "Image/Skill/021/01/{1}/IcSkill_021_01_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 101,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 8000,
+              "level_add_effect_value": 2000,
+              "effect_value": 10000
+            },
+            {
+              "target_type": 1,
+              "parameter_type": 616,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -10000,
+              "level_add_effect_value": 0,
+              "effect_value": -10000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5200020,
+          "skill_change_type": "Attack Changing",
+          "is_skill_change": true,
+          "replaces_label": "MomijiXmas2024_buff_23",
+          "replaces_slot": "active_skill_1",
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000026,
@@ -104744,7 +105229,7 @@
       "tactics_type": "Defense",
       "master_strategy_type_group_label": "Defense",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -104957,6 +105442,69 @@
               "change_target_label": "Divine Protection"
             }
           ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "MariabellXmas2024_buff_824",
+          "kind": "buff",
+          "name": "Gift of Awe",
+          "description_max_level": "Changes non-Divine Protection soul x<color=#2BE41D>2</color> into Soul of Divine Protection\nApplies barrier stack x<color=#2BE41D>2</color> each to <color=#FFFF00>Festive Memories</color> Force characters (Unlimited)",
+          "icon_path": "Image/Skill/085/02/{1}/IcSkill_085_02_{1}_{0}",
+          "cost": 25,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 51,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 2,
+              "base_value2": 2,
+              "base_value3": 2,
+              "level_add_value": 0,
+              "effect_value": 2
+            }
+          ],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 3,
+              "normal_card_type": 2,
+              "base_effect_value": 1,
+              "level_add_effect_value": 1,
+              "effect_value": 2,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": 5500001,
+          "skill_change_type": "Body and Spirit Changing",
+          "is_skill_change": true,
+          "replaces_label": "MariabellXmas2024_buff_24",
+          "replaces_slot": "active_skill_2",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000130,
+              "category_name": "ConditionChange",
+              "sub_category_label": "Barrier",
+              "effect_family": "condition",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000140,
+              "category_name": "BuffChangeAct",
+              "sub_category_label": "All → Divine Protection",
+              "effect_family": "system",
+              "raw_effect_polarity": "utility",
+              "change_source_label": "All",
+              "change_target_label": "Divine Protection"
+            }
+          ]
         }
       ],
       "traits": [
@@ -105128,7 +105676,7 @@
       "tactics_type": "Defense",
       "master_strategy_type_group_label": "Defense",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -105228,6 +105776,64 @@
           ],
           "skill_level_group_id": 42,
           "skill_change_type": "Attack Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000001,
+              "category_name": "DamageUP",
+              "sub_category_label": "ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000132,
+              "category_name": "GageUP",
+              "sub_category_label": "Skill Point UP",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "VioletXmas2024_buff_823",
+          "kind": "buff",
+          "name": "Dark Desire Realization",
+          "description_max_level": "Increases ATK of physical characters including rearguard by <color=#2BE41D>150%</color> (Turns: 1)\nAwakened Skill: Increases skill points by <color=#2BE41D>120</color> after 8 turns from the start of battle (Can exceed cost limit)\n(Uses per battle: 1) ",
+          "icon_path": "Image/Skill/001/01/{1}/IcSkill_001_01_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 1,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 14000,
+              "level_add_effect_value": 1000,
+              "effect_value": 15000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 47,
+              "normal_card_type": 5,
+              "base_effect_value": 0,
+              "level_add_effect_value": 0,
+              "effect_value": 0,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": 5200010,
+          "skill_change_type": "Attack Changing",
+          "is_skill_change": true,
+          "replaces_label": "VioletXmas2024_buff_23",
+          "replaces_slot": "active_skill_1",
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000001,
@@ -107040,7 +107646,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -107150,6 +107756,66 @@
           "battle_system_effects": [],
           "skill_level_group_id": 25,
           "skill_change_type": "Attack Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000003,
+              "category_name": "DamageUP",
+              "sub_category_label": "P-ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000174,
+              "category_name": "DamageUP",
+              "sub_category_label": "Physical Attack Damage UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "LuminousCreator01_buff_823",
+          "kind": "buff",
+          "name": "Soul Embrace",
+          "description_max_level": "Increases own P-ATK by <color=#2BE41D>100%</color> (Turns: 1)\nIncreases own physical attack damage by <color=#2BE41D>100%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/005/02/{1}/IcSkill_005_02_{1}_{0}",
+          "cost": 25,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 300,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 9000,
+              "level_add_effect_value": 1000,
+              "effect_value": 10000
+            },
+            {
+              "target_type": 5,
+              "parameter_type": 500,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5200010,
+          "skill_change_type": "Attack Changing",
+          "is_skill_change": true,
+          "replaces_label": "LuminousCreator01_buff_23",
+          "replaces_slot": "active_skill_1",
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000003,
@@ -107902,7 +108568,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -108050,6 +108716,65 @@
               "effect_family": "buff",
               "raw_effect_polarity": "buff",
               "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000086,
+              "category_name": "DamageUP",
+              "sub_category_label": "Soul of Combos Damage UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "RimuruCreator01_buff_823",
+          "kind": "buff",
+          "name": "Demon Lord's Majesty",
+          "description_max_level": "Increases Soul of Combos damage by <color=#2BE41D>100%</color> (Turns: 1)\nIncreases weakness strike for all allies including rearguard by <color=#2BE41D>100%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/009/01/{1}/IcSkill_009_01_{1}_{0}",
+          "cost": 50,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 4,
+              "parameter_type": 1400,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 4,
+              "card_effect_type": 0,
+              "base_effect_value": 9000,
+              "level_add_effect_value": 1000,
+              "effect_value": 10000,
+              "base_effect_max_value": 9000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 9000
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5400010,
+          "skill_change_type": "Magic Changing",
+          "is_skill_change": true,
+          "replaces_label": "RimuruCreator01_buff_23",
+          "replaces_slot": "active_skill_1",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000029,
+              "category_name": "DamageUP",
+              "sub_category_label": "Weakness Strike UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAllWithDeck",
               "target_team": "ally",
               "target_scope": "all"
             },
@@ -108298,7 +109023,7 @@
       "tactics_type": "Speed",
       "master_strategy_type_group_label": "Speed",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -108601,6 +109326,179 @@
               "raw_effect_polarity": "buff"
             }
           ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "GobtaMarou_buff_824",
+          "kind": "buff",
+          "name": "Direwolves' Claws",
+          "description_max_level": "Increases all attribute ATK for all allies including rearguard by <color=#2BE41D>70%</color> (Turns: 2)\nIncreases EX Soul of Combos damage by <color=#2BE41D>70%</color> (Turns: 2)",
+          "icon_path": "Image/Skill/003/09/{1}/IcSkill_003_09_{1}_{0}",
+          "cost": 50,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 310,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 7000,
+              "level_add_effect_value": 0,
+              "effect_value": 7000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 309,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 7000,
+              "level_add_effect_value": 0,
+              "effect_value": 7000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 311,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 7000,
+              "level_add_effect_value": 0,
+              "effect_value": 7000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 312,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 7000,
+              "level_add_effect_value": 0,
+              "effect_value": 7000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 313,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 7000,
+              "level_add_effect_value": 0,
+              "effect_value": 7000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 314,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 7000,
+              "level_add_effect_value": 0,
+              "effect_value": 7000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 315,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 7000,
+              "level_add_effect_value": 0,
+              "effect_value": 7000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 5,
+              "card_effect_type": 8,
+              "base_effect_value": 6000,
+              "level_add_effect_value": 1000,
+              "effect_value": 7000,
+              "base_effect_max_value": 6000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 6000
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5400010,
+          "skill_change_type": "Attack Changing",
+          "is_skill_change": true,
+          "replaces_label": "GobtaMarou_buff_24",
+          "replaces_slot": "active_skill_2",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000006,
+              "category_name": "DamageUP",
+              "sub_category_label": "Fire ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000007,
+              "category_name": "DamageUP",
+              "sub_category_label": "Water ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000008,
+              "category_name": "DamageUP",
+              "sub_category_label": "Wind ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000009,
+              "category_name": "DamageUP",
+              "sub_category_label": "Space ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000010,
+              "category_name": "DamageUP",
+              "sub_category_label": "Earth ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000011,
+              "category_name": "DamageUP",
+              "sub_category_label": "Light ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000012,
+              "category_name": "DamageUP",
+              "sub_category_label": "Dark ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000087,
+              "category_name": "DamageUP",
+              "sub_category_label": "EX Soul of Combos Damage UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            }
+          ]
         }
       ],
       "traits": [
@@ -108782,7 +109680,7 @@
       "tactics_type": "Defense",
       "master_strategy_type_group_label": "Defense",
       "master_character_tactics_type": "ExtremeDefense",
-      "master_pc_level_group_id": 1563,
+      "master_pc_level_group_id": 51563,
       "master_statusboard_id": 1700001563,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -108970,6 +109868,67 @@
           "battle_system_effects": [],
           "skill_level_group_id": 35,
           "skill_change_type": "Body and Spirit Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000097,
+              "category_name": "GageUP",
+              "sub_category_label": "[Skills] Protection Gauge Increase UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000251,
+              "category_name": "ConditionChange",
+              "sub_category_label": "Reckoning",
+              "effect_family": "condition",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "HinataSchool2025_buff_824",
+          "kind": "buff",
+          "name": "Writing Onslaught",
+          "description_max_level": "Adds Reckoning charge x<color=#2BE41D>3</color> to all allies (Each charge x1 deals <color=#2BE41D>150%</color> of affected allies' current HP in ongoing damage to all targets from Turn 5 onward)\nIncreases Soul of Skills' protection gauge increase by <color=#2BE41D>50%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/031/54/{1}/IcSkill_031_54_{1}_{0}",
+          "cost": 25,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 54,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 15000,
+              "base_value2": 0,
+              "base_value3": 0,
+              "level_add_value": 0,
+              "effect_value": 15000
+            }
+          ],
+          "battle_card_effects": [
+            {
+              "card_target_type": 0,
+              "card_effect_type": 5,
+              "base_effect_value": 4000,
+              "level_add_effect_value": 1000,
+              "effect_value": 5000,
+              "base_effect_max_value": 4000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 4000
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5400010,
+          "skill_change_type": "Body and Spirit Changing",
+          "is_skill_change": true,
+          "replaces_label": "HinataSchool2025_buff_24",
+          "replaces_slot": "active_skill_2",
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000097,
@@ -109686,7 +110645,7 @@
       "tactics_type": "Defense",
       "master_strategy_type_group_label": "Defense",
       "master_character_tactics_type": "ExtremeDefense",
-      "master_pc_level_group_id": 1563,
+      "master_pc_level_group_id": 51563,
       "master_statusboard_id": 1700001563,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -109890,6 +110849,69 @@
               "target_scope": "self"
             }
           ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "YuukiSchool2025_buff_824",
+          "kind": "buff",
+          "name": "Commander's Iron Rule",
+          "description_max_level": "Changes non-Skills soul x<color=#2BE41D>2</color> into Soul of Skills\nAdds Reckoning charge x<color=#2BE41D>3</color> to all allies (Each charge x1 deals <color=#2BE41D>150%</color> of affected allies' current HP in ongoing damage to all targets from Turn 5 onward)",
+          "icon_path": "L10NAssets/En/Image/Skill/042/07/{1}/IcSkill_042_07_{1}_{0}",
+          "cost": 25,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 54,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 15000,
+              "base_value2": 0,
+              "base_value3": 0,
+              "level_add_value": 0,
+              "effect_value": 15000
+            }
+          ],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 3,
+              "normal_card_type": 0,
+              "base_effect_value": 2,
+              "level_add_effect_value": 0,
+              "effect_value": 2,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": 5000000,
+          "skill_change_type": "Magic Changing",
+          "is_skill_change": true,
+          "replaces_label": "YuukiSchool2025_buff_24",
+          "replaces_slot": "active_skill_2",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000135,
+              "category_name": "BuffChangeAct",
+              "sub_category_label": "All → Skills",
+              "effect_family": "system",
+              "raw_effect_polarity": "utility",
+              "change_source_label": "All",
+              "change_target_label": "Skills"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000251,
+              "category_name": "ConditionChange",
+              "sub_category_label": "Reckoning",
+              "effect_family": "condition",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
         }
       ],
       "traits": [
@@ -110072,7 +111094,7 @@
       "tactics_type": "Defense",
       "master_strategy_type_group_label": "Defense",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -110228,6 +111250,65 @@
           "battle_system_effects": [],
           "skill_level_group_id": 35,
           "skill_change_type": "Attack Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000002,
+              "category_name": "DamageUP",
+              "sub_category_label": "M-ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000087,
+              "category_name": "DamageUP",
+              "sub_category_label": "EX Soul of Combos Damage UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "FreySchool2025_buff_824",
+          "kind": "buff",
+          "name": "Soaring Smash",
+          "description_max_level": "Increases M-ATK for all allies including rearguard by <color=#2BE41D>100%</color> (Turns: 1)\nIncreases EX Soul of Combos damage by <color=#2BE41D>100%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/005/03/{1}/IcSkill_005_03_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 301,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 5,
+              "card_effect_type": 8,
+              "base_effect_value": 9000,
+              "level_add_effect_value": 1000,
+              "effect_value": 10000,
+              "base_effect_max_value": 9000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 9000
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": 5400010,
+          "skill_change_type": "Attack Changing",
+          "is_skill_change": true,
+          "replaces_label": "FreySchool2025_buff_24",
+          "replaces_slot": "active_skill_2",
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000002,
@@ -112340,7 +113421,7 @@
       "tactics_type": "Charge",
       "master_strategy_type_group_label": "Charge",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -112713,7 +113794,7 @@
       "tactics_type": "Charge",
       "master_strategy_type_group_label": "Charge",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -113632,7 +114713,7 @@
       "tactics_type": "Charge",
       "master_strategy_type_group_label": "Charge",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -114112,7 +115193,7 @@
       "tactics_type": "Charge",
       "master_strategy_type_group_label": "Charge",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 1562,
+      "master_pc_level_group_id": 51562,
       "master_statusboard_id": 1700001562,
       "master_enhanced_statusboard_id": 190000200000001,
       "character_role": "Attacker",
@@ -147895,6 +148976,999 @@
       ]
     },
     {
+      "master_pc_id": 160695,
+      "name": "Granville Rozzo",
+      "affiliation_name": "Hero of the Dying Light",
+      "rarity": 6,
+      "element": "EnhancedHoly",
+      "attack_type": "Magic",
+      "weapon_type": "Sword",
+      "tactics_type": "Speed",
+      "master_strategy_type_group_label": "Speed",
+      "master_character_tactics_type": "ExtremeAttack",
+      "master_pc_level_group_id": 1612,
+      "master_statusboard_id": 1700001612,
+      "master_enhanced_statusboard_id": 190000200000081,
+      "character_role": "Attacker",
+      "ultimate_type": "Attack",
+      "stats": {
+        "hp": 1165,
+        "attack": 694,
+        "defense": 482,
+        "existence": 2341
+      },
+      "images": {
+        "icon": "Image/Character/PC/GranbellDefault/7/GranbellDefault_7_CharaPartyM",
+        "full": "Image/Character/PC/GranbellDefault/7/GranbellDefault_7_CharaInfo"
+      },
+      "forces": [
+        {
+          "label": "event_9",
+          "name": "Warrior's Mind",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000039"
+        },
+        {
+          "label": "tribe_5",
+          "name": "Heart of a Hero",
+          "group": "ability",
+          "icon_path": "Image/IcCategory/tribe/category_140000000000014"
+        },
+        {
+          "label": "event_15",
+          "name": "Determination to Prosper",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000047"
+        },
+        {
+          "label": "event_16",
+          "name": "Protector of Peace",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000048"
+        }
+      ],
+      "skills": [
+        {
+          "slot": "special_skill",
+          "label": "GranbellDefault_special_22",
+          "kind": "special",
+          "name": "Salvation Rapture",
+          "description_max_level": "Unleashes an all-target light magic attack for <color=#2BE41D>475%</color> normal damage\n\nUse 200% of secret skill gauge to change to Ultimate Soul of Combos: Damage x2.5, Massively increases damage to weak attributes",
+          "icon_path": "Image/Character/PC/GranbellDefault/7/GranbellDefault_7_CharaCard",
+          "cost": null,
+          "battle_attack_effects": [
+            {
+              "target_type": 1,
+              "attack_type": "Magic",
+              "element_type": "EnhancedHoly",
+              "attack_calc_type": 0,
+              "attack_base_type": 0,
+              "attack_base_value": 0,
+              "base_effect_value": 27000,
+              "level_add_effect_value": 20500,
+              "effect_value": 47500
+            }
+          ],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 7002,
+          "special_skill_type": "Attack"
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "GranbellDefault_buff_23",
+          "kind": "buff",
+          "name": "Sunset Obsession",
+          "description_max_level": "Transfers all souls to self, and applies All-Target Attack, Multi-hit (<color=#2BE41D>2</color> Times), and light Seeking Soul Generation (Damage Scaling: <color=#2BE41D>50%</color>) states to own souls (Turns: 1)\nIncreases own light ATK by <color=#2BE41D>250%</color> (Turns: 1)\nIncreases own damage done to dark attribute enemies by <color=#2BE41D>140%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/043/06/{1}/IcSkill_043_06_{1}_{0}",
+          "cost": 70,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 314,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 25000,
+              "level_add_effect_value": 0,
+              "effect_value": 25000
+            },
+            {
+              "target_type": 5,
+              "parameter_type": 1306,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 13000,
+              "level_add_effect_value": 1000,
+              "effect_value": 14000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 3,
+              "card_effect_type": 12,
+              "base_effect_value": -5000,
+              "level_add_effect_value": 0,
+              "effect_value": -5000,
+              "base_effect_max_value": -5000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": -5000
+            },
+            {
+              "card_target_type": 3,
+              "card_effect_type": 11,
+              "base_effect_value": 0,
+              "level_add_effect_value": 0,
+              "effect_value": 0,
+              "base_effect_max_value": 0,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 0
+            },
+            {
+              "card_target_type": 3,
+              "card_effect_type": 7,
+              "base_effect_value": 5000,
+              "level_add_effect_value": 0,
+              "effect_value": 5000,
+              "base_effect_max_value": 5000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 5000
+            }
+          ],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 9,
+              "normal_card_type": 5,
+              "base_effect_value": 6,
+              "level_add_effect_value": 0,
+              "effect_value": 6,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": 40,
+          "skill_change_type": "Magic Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000011,
+              "category_name": "DamageUP",
+              "sub_category_label": "Light ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000019,
+              "category_name": "DamageUP",
+              "sub_category_label": "Damage to Dark UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000101,
+              "category_name": "Special",
+              "sub_category_label": "All-Target Attack Effect",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000105,
+              "category_name": "Special",
+              "sub_category_label": "Multi-hit Soul",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000106,
+              "category_name": "Special",
+              "sub_category_label": "Seeking Soul",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "GranbellDefault_buff_24",
+          "kind": "buff",
+          "name": "Covert Conquest",
+          "description_max_level": "Increases P-ATK/M-ATK for all allies including rearguard by <color=#2BE41D>222%</color> (Turns: 2)",
+          "icon_path": "Image/Skill/005/03/{1}/IcSkill_005_03_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 300,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 21200,
+              "level_add_effect_value": 1000,
+              "effect_value": 22200
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 301,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 21200,
+              "level_add_effect_value": 1000,
+              "effect_value": 22200
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 7,
+          "skill_change_type": "Attack Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000002,
+              "category_name": "DamageUP",
+              "sub_category_label": "M-ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000003,
+              "category_name": "DamageUP",
+              "sub_category_label": "P-ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            }
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "slot": "arousal_trait",
+          "label": "GranbellDefault_debuff_50",
+          "kind": "debuff",
+          "name": "Charge - Protection DOWN Initial Conditions",
+          "description_max_level": "When you use souls while the enemy has a protection gauge with 120% or higher, the enemy is afflicted with a protection seal (Turns: 1; Uses by this character per battle: 1)",
+          "icon_path": "Image/ArenaPassiveSkill/031/02/1/IcArenaPassiveSkill_031_02_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 23,
+              "normal_card_type": 5,
+              "base_effect_value": 0,
+              "level_add_effect_value": 0,
+              "effect_value": 0,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Initial Conditions",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000131,
+              "category_name": "AbnormalCondition",
+              "sub_category_label": "Protection Seal",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "GranbellDefault_passive_30",
+          "kind": "passive",
+          "name": "Troop - Protection UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases protection gauge by 5 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/14/1/IcPassiveSkill_041_14_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 24,
+              "normal_card_type": 5,
+              "base_effect_value": 5,
+              "level_add_effect_value": 0,
+              "effect_value": 5,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 1/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000134,
+              "category_name": "GageUP",
+              "sub_category_label": "Protection Gauge UP",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "GranbellDefault_debuff_51",
+          "kind": "debuff",
+          "name": "Charge - Protection DOWN",
+          "description_max_level": "When you use souls while the enemy has a protection gauge with 100% or higher, the enemy is afflicted with a protection seal (Turns: 1; Uses by this character per battle: 1)",
+          "icon_path": "Image/ArenaPassiveSkill/031/02/2/IcArenaPassiveSkill_031_02_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 23,
+              "normal_card_type": 5,
+              "base_effect_value": 0,
+              "level_add_effect_value": 0,
+              "effect_value": 0,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 2/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000131,
+              "category_name": "AbnormalCondition",
+              "sub_category_label": "Protection Seal",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "GranbellDefault_passive_31",
+          "kind": "passive",
+          "name": "Troop - Protection UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases protection gauge by 7 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/14/2/IcPassiveSkill_041_14_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 24,
+              "normal_card_type": 5,
+              "base_effect_value": 7,
+              "level_add_effect_value": 0,
+              "effect_value": 7,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 3/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000134,
+              "category_name": "GageUP",
+              "sub_category_label": "Protection Gauge UP",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "GranbellDefault_passive_32",
+          "kind": "passive",
+          "name": "HP - Critical Power UP",
+          "description_max_level": "When you have 75% or more HP, increases own critical power by 8% at start of turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/025/02/1/IcPassiveSkill_025_02_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 304,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 800,
+              "level_add_effect_value": 0,
+              "effect_value": 800
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 4/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000020,
+              "category_name": "DamageUP",
+              "sub_category_label": "Critical Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "GranbellDefault_passive_33",
+          "kind": "passive",
+          "name": "HP - Critical Power UP",
+          "description_max_level": "When you have 75% or more HP, increases own critical power by 12% at start of turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/025/02/2/IcPassiveSkill_025_02_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 304,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 1200,
+              "level_add_effect_value": 0,
+              "effect_value": 1200
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 5/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000020,
+              "category_name": "DamageUP",
+              "sub_category_label": "Critical Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        }
+      ],
+      "ex_abilities": [
+        {
+          "name": "Individual Mercy",
+          "description": "Increases own following status when Luminus Valentine is assigned to a battle slot.",
+          "effects": [
+            "<color=#2BE41D>Increases critical damage by 12%</color>"
+          ]
+        },
+        {
+          "name": "Magic Mercy",
+          "description": "Increases own following status in accordance with the number of magic attack characters assigned to battle slots.",
+          "effects": [
+            "<color=#2BE41D>Increases HP by 396</color>",
+            "<color=#2BE41D>Increases ATK by 200</color>",
+            "<color=#2BE41D>Increases DEF by 116</color>"
+          ]
+        }
+      ],
+      "release_date": "2026/10/15",
+      "facilities": [
+        "Mountain Supply Corps Base +30%",
+        "Geological Survey Station +10%"
+      ]
+    },
+    {
+      "master_pc_id": 160696,
+      "name": "Chronoa",
+      "affiliation_name": "Time-Traveling Hero",
+      "rarity": 6,
+      "element": "EnhancedWind",
+      "attack_type": "Magic",
+      "weapon_type": "Sword",
+      "tactics_type": "Speed",
+      "master_strategy_type_group_label": "Speed",
+      "master_character_tactics_type": "ExtremeAttack",
+      "master_pc_level_group_id": 1612,
+      "master_statusboard_id": 1700001612,
+      "master_enhanced_statusboard_id": 190000200000081,
+      "character_role": "Attacker",
+      "ultimate_type": "Attack",
+      "stats": {
+        "hp": 1150,
+        "attack": 669,
+        "defense": 538,
+        "existence": 2357
+      },
+      "images": {
+        "icon": "Image/Character/PC/ChronoaDefault/7/ChronoaDefault_7_CharaPartyM",
+        "full": "Image/Character/PC/ChronoaDefault/7/ChronoaDefault_7_CharaInfo"
+      },
+      "forces": [
+        {
+          "label": "event_9",
+          "name": "Warrior's Mind",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000039"
+        },
+        {
+          "label": "ablity_3",
+          "name": "Stern of Spirit",
+          "group": "ability",
+          "icon_path": "Image/IcCategory/ability/category_140000000000020"
+        },
+        {
+          "label": "event_21",
+          "name": "Scourge Wielder",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000053"
+        },
+        {
+          "label": "tribe_5",
+          "name": "Heart of a Hero",
+          "group": "ability",
+          "icon_path": "Image/IcCategory/tribe/category_140000000000014"
+        }
+      ],
+      "skills": [
+        {
+          "slot": "special_skill",
+          "label": "ChronoaDefault_special_22",
+          "kind": "special",
+          "name": "Chrono Divide",
+          "description_max_level": "Unleashes a single-target wind magic attack for <color=#2BE41D>800%</color> normal damage\n\nUse 200% of secret skill gauge to change to Ultimate Soul of Combos: Damage x2, Massively increases damage to weak attributes",
+          "icon_path": "Image/Character/PC/ChronoaDefault/7/ChronoaDefault_7_CharaCard",
+          "cost": null,
+          "battle_attack_effects": [
+            {
+              "target_type": 0,
+              "attack_type": "Magic",
+              "element_type": "EnhancedWind",
+              "attack_calc_type": 0,
+              "attack_base_type": 0,
+              "attack_base_value": 0,
+              "base_effect_value": 45000,
+              "level_add_effect_value": 35000,
+              "effect_value": 80000
+            }
+          ],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 7001,
+          "special_skill_type": "Attack"
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "ChronoaDefault_buff_23",
+          "kind": "buff",
+          "name": "Transcending Fate",
+          "description_max_level": "For this turn, enables the reactivation of certain battle effects that have already been activated, and allows you to make another move\nSets Soul of Combos' gauge increase to the same amount as Soul of Unity's, with gauge-altering effects applied (Turns: 1)\nIncreases all gauges' increase of all souls by <color=#2BE41D>30%</color> (Turns: 1)\nIncreases all allies' Secret Skill Gauge by <color=#2BE41D>10%</color>\nGenerates Soul of Combos for characters whose Secret Skill Gauge is 100% or more\nAwakened Skill: Increases secret skill gauge effect amount by x<color=#2BE41D>5</color> after 2 turns from the start of battle\n\n(Uses per battle: 1; Cannot be used after another character's second move skill has been activated)",
+          "icon_path": "Image/Skill/065/03/{1}/IcSkill_065_03_{1}_{0}",
+          "cost": 30,
+          "battle_attack_effects": [
+            {
+              "target_type": 3,
+              "attack_type": "SpecialPoint",
+              "element_type": "EnhancedWind",
+              "attack_calc_type": 2,
+              "attack_base_type": 0,
+              "attack_base_value": 0,
+              "base_effect_value": 1000,
+              "level_add_effect_value": 0,
+              "effect_value": 1000
+            }
+          ],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 4,
+              "card_effect_type": 16,
+              "base_effect_value": 10000,
+              "level_add_effect_value": 0,
+              "effect_value": 10000,
+              "base_effect_max_value": 10000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 10000
+            },
+            {
+              "card_target_type": 3,
+              "card_effect_type": 1,
+              "base_effect_value": 2000,
+              "level_add_effect_value": 1000,
+              "effect_value": 3000,
+              "base_effect_max_value": 2000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 2000
+            }
+          ],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 58,
+              "normal_card_type": 5,
+              "base_effect_value": 1,
+              "level_add_effect_value": 0,
+              "effect_value": 1,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            },
+            {
+              "system_effect_type": 52,
+              "normal_card_type": 5,
+              "base_effect_value": 6,
+              "level_add_effect_value": 0,
+              "effect_value": 6,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": 56,
+          "skill_change_type": "Magic Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000088,
+              "category_name": "GageUP",
+              "sub_category_label": "[All] All Gauges Increase UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000155,
+              "category_name": "Special",
+              "sub_category_label": "Second Move",
+              "effect_family": "system"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000164,
+              "category_name": "GageUP",
+              "sub_category_label": "Secret Skill Gauge UP",
+              "effect_family": "attack",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000261,
+              "category_name": "Special",
+              "sub_category_label": "Soul of Combos<br>Gauge Active",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000276,
+              "category_name": "Special",
+              "sub_category_label": "Instant Generation:<br>Soul of Combos",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "ChronoaDefault_buff_24",
+          "kind": "buff",
+          "name": "Boundary Bending Beam",
+          "description_max_level": "Increases wind+/light+ damage for all allies including rearguard by <color=#2BE41D>150%</color> (Turns: 2)\nIncreases Soul of Combos damage by <color=#2BE41D>100%</color> (Turns: 2)",
+          "icon_path": "Image/Skill/007/18/{1}/IcSkill_007_18_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 3,
+              "parameter_type": 1517,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 15000,
+              "level_add_effect_value": 0,
+              "effect_value": 15000
+            },
+            {
+              "target_type": 3,
+              "parameter_type": 1520,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 15000,
+              "level_add_effect_value": 0,
+              "effect_value": 15000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 4,
+              "card_effect_type": 0,
+              "base_effect_value": 9000,
+              "level_add_effect_value": 1000,
+              "effect_value": 10000,
+              "base_effect_max_value": 9000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 9000
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": 35,
+          "skill_change_type": "Attack Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000086,
+              "category_name": "DamageUP",
+              "sub_category_label": "Soul of Combos Damage UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000184,
+              "category_name": "DamageUP",
+              "sub_category_label": "Wind+ Damage UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000187,
+              "category_name": "DamageUP",
+              "sub_category_label": "Light+ Damage UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "FriendSideAll",
+              "target_team": "ally",
+              "target_scope": "all"
+            }
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "slot": "arousal_trait",
+          "label": "ChronoaDefault_debuff_50",
+          "kind": "debuff",
+          "name": "Switch - Skill Seal Initial Conditions",
+          "description_max_level": "When you switch this character to the vanguard and activate souls, all enemies' defense-changing battle skills are sealed (Turns: 1; Uses by this character per battle: 1)",
+          "icon_path": "L10NAssets/En/Image/ArenaPassiveSkill/031/26/1/IcArenaPassiveSkill_031_26_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 22,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 1000,
+              "base_value2": 1000,
+              "base_value3": 1000,
+              "level_add_value": 0,
+              "effect_value": 1000
+            }
+          ],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Initial Conditions"
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "ChronoaDefault_passive_30",
+          "kind": "passive",
+          "name": "Soul Combo - ATK UP",
+          "description_max_level": "When you unleash a 6 combo attack with Soul of Secrets, increases own ATK by 5% for the next turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/001/01/1/IcPassiveSkill_001_01_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 1,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 500,
+              "level_add_effect_value": 0,
+              "effect_value": 500
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 1/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000001,
+              "category_name": "DamageUP",
+              "sub_category_label": "ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "ChronoaDefault_debuff_51",
+          "kind": "debuff",
+          "name": "Switch - Skill Seal",
+          "description_max_level": "When you switch this character to the vanguard and activate souls, all enemies' defense-changing battle skills are sealed (Turns: 1; Uses by this character per battle: 2)",
+          "icon_path": "L10NAssets/En/Image/ArenaPassiveSkill/031/26/2/IcArenaPassiveSkill_031_26_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 22,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 1000,
+              "base_value2": 1000,
+              "base_value3": 1000,
+              "level_add_value": 0,
+              "effect_value": 1000
+            }
+          ],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 2/5"
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "ChronoaDefault_passive_31",
+          "kind": "passive",
+          "name": "Soul Combo - ATK UP",
+          "description_max_level": "When you unleash a 6 combo attack with Soul of Secrets, increases own ATK by 8% for the next turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/001/01/2/IcPassiveSkill_001_01_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 1,
+              "value_type": 0,
+              "buff_type": 1,
+              "base_effect_value": 800,
+              "level_add_effect_value": 0,
+              "effect_value": 800
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 3/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000001,
+              "category_name": "DamageUP",
+              "sub_category_label": "ATK UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "ChronoaDefault_passive_32",
+          "kind": "passive",
+          "name": "Troop - Skill UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases skill points by 3 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/15/1/IcPassiveSkill_041_15_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 21,
+              "normal_card_type": 5,
+              "base_effect_value": 3,
+              "level_add_effect_value": 0,
+              "effect_value": 3,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 4/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000132,
+              "category_name": "GageUP",
+              "sub_category_label": "Skill Point UP",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "ChronoaDefault_passive_33",
+          "kind": "passive",
+          "name": "Troop - Skill UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases skill points by 5 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/15/2/IcPassiveSkill_041_15_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 21,
+              "normal_card_type": 5,
+              "base_effect_value": 5,
+              "level_add_effect_value": 0,
+              "effect_value": 5,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 5/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000132,
+              "category_name": "GageUP",
+              "sub_category_label": "Skill Point UP",
+              "effect_family": "system"
+            }
+          ]
+        }
+      ],
+      "ex_abilities": [
+        {
+          "name": "Individual Mercy",
+          "description": "Increases own following status when Rimuru Tempest is assigned to a battle slot.",
+          "effects": [
+            "<color=#2BE41D>Increases critical damage by 12%</color>"
+          ]
+        },
+        {
+          "name": "Magic Mercy",
+          "description": "Increases own following status in accordance with the number of magic attack characters assigned to battle slots.",
+          "effects": [
+            "<color=#2BE41D>Increases HP by 396</color>",
+            "<color=#2BE41D>Increases ATK by 200</color>",
+            "<color=#2BE41D>Increases DEF by 116</color>"
+          ]
+        }
+      ],
+      "release_date": "2026/10/15",
+      "facilities": [
+        "Field +30%",
+        "Weaving Workshop +10%"
+      ]
+    },
+    {
       "master_pc_id": 250001,
       "name": "Orc Disaster",
       "affiliation_name": "Starved",
@@ -162763,7 +164837,7 @@
           "label": "Luminous2Anniv_bless_01",
           "kind": "bless",
           "name": "Night Sky Thorn",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Visions of Coleus</color> Force characters to wind attribute enemies by <color=#2BE41D>60%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Visions of Coleus</color> Force characters to wind attribute enemies by <color=#2BE41D>60%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/06/{1}/IcSkill_072_06_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -164558,7 +166632,7 @@
           "label": "RimuruAinz_bless_01",
           "kind": "bless",
           "name": "Evil in the Underworld",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Stern of Spirit</color> Force characters to light attribute enemies by <color=#2BE41D>60%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Stern of Spirit</color> Force characters to light attribute enemies by <color=#2BE41D>60%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/09/{1}/IcSkill_072_09_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -165887,7 +167961,7 @@
           "label": "VioletGothic_bless_01",
           "kind": "bless",
           "name": "Cruel Banquet",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Primal Demon</color> Force characters to wind attribute enemies by <color=#2BE41D>60%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Primal Demon</color> Force characters to wind attribute enemies by <color=#2BE41D>60%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/06/{1}/IcSkill_072_06_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -167226,7 +169300,7 @@
           "label": "LeonardDefault_bless_01",
           "kind": "bless",
           "name": "Holy Sorcerer's True Power",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Commander</color> Force characters to light attribute enemies by <color=#2BE41D>60%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Commander</color> Force characters to light attribute enemies by <color=#2BE41D>60%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/09/{1}/IcSkill_072_09_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -168393,7 +170467,7 @@
           "label": "BenimaruTengu_bless_01",
           "kind": "bless",
           "name": "Commanding Black Flame",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Ogre's Pride</color> Force characters to earth attribute enemies by <color=#2BE41D>60%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Ogre's Pride</color> Force characters to earth attribute enemies by <color=#2BE41D>60%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/03/{1}/IcSkill_072_03_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -168970,7 +171044,7 @@
           "label": "MasayukiDefault_bless_01",
           "kind": "bless",
           "name": "Chosen One",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Protector of Peace</color> Force characters to fire attribute enemies by <color=#2BE41D>60%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Protector of Peace</color> Force characters to fire attribute enemies by <color=#2BE41D>60%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>20%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/05/{1}/IcSkill_072_05_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -170112,7 +172186,7 @@
       "rarity": 5,
       "element": "SpecialEffectElementEnhancedHoly",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 2562,
+      "master_pc_level_group_id": 52562,
       "master_statusboard_id": 1700002562,
       "master_enhanced_statusboard_id": null,
       "master_leader_skill_element_type_2": "Magic",
@@ -170216,7 +172290,7 @@
           "label": "Guy3Anniv_bless_02",
           "kind": "bless",
           "name": "Catastrophe Rouge",
-          "description_max_level": "Chance to apply Lord's Ambition state to all allies including rearguard: <color=#2BE41D>100%</color> (Turns: 1; Nullify certain weakening effects; When the enemy's turn ends, decreases all targets' weakness resistance until the end of battle by <color=#2BE41D>10%</color> (Unlimited))\nDecreases all targets' all attribute resistance by <color=#2BE41D>-100%</color> (Turns: 1)\nChanges all Soul of Divine Protection and Soul of Secrets into Soul of Skills",
+          "description_max_level": "Chance to apply Lord's Ambition state to all allies including rearguard: <color=#2BE41D>100%</color> (Turns: 1; Nullify certain weakening effects; When the enemy's turn ends, decreases all targets' weakness resistance until the end of battle by <color=#2BE41D>30%</color> (Unlimited))\nDecreases all targets' all attribute resistance by <color=#2BE41D>-100%</color> (Turns: 1)\nChanges all Soul of Divine Protection and Soul of Secrets into Soul of Skills\n",
           "icon_path": "Image/Skill/031/46/{1}/IcSkill_031_46_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -170542,7 +172616,7 @@
       "rarity": 5,
       "element": "SpecialEffectElementEnhancedWind",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 2562,
+      "master_pc_level_group_id": 52562,
       "master_statusboard_id": 1700002562,
       "master_enhanced_statusboard_id": null,
       "master_leader_skill_element_type_2": "Magic",
@@ -170570,7 +172644,7 @@
           "label": "Elmesia3Anniv_bless_01",
           "kind": "bless",
           "name": "Maelstrom Spell",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Divine General</color> Force characters to wind attribute enemies by <color=#2BE41D>120%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Divine General</color> Force characters to wind attribute enemies by <color=#2BE41D>120%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/06/{1}/IcSkill_072_06_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -170646,7 +172720,7 @@
           "label": "Elmesia3Anniv_bless_02",
           "kind": "bless",
           "name": "Makarios Poseidonia",
-          "description_max_level": "Applies Emperor's Enamor to all targets including rearguard (Turns: 2; Enamor Effect Amount: <color=#2BE41D>25%</color> / Seal Critical, Pierce, and Synergy Resistance UP)\nIncreases ATK for all allies including rearguard until the end of battle by <color=#2BE41D>15%</color> (Unlimited)\nDecreases the skill cost to initial value for vanguard allies",
+          "description_max_level": "Applies Emperor's Enamor to all targets including rearguard (Turns: 2; Enamor Effect Amount: <color=#2BE41D>30%</color> / Seal Critical, Pierce, and Synergy Resistance UP)\nIncreases ATK for all allies including rearguard until the end of battle by <color=#2BE41D>20%</color> (Unlimited)\nDecreases the skill cost to initial value for vanguard allies",
           "icon_path": "Image/Skill/031/51/{1}/IcSkill_031_51_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -170657,8 +172731,8 @@
               "value_type": 0,
               "buff_type": 1,
               "base_effect_value": 1000,
-              "level_add_effect_value": 500,
-              "effect_value": 1500
+              "level_add_effect_value": 1000,
+              "effect_value": 2000
             }
           ],
           "battle_condition_effects": [
@@ -170667,11 +172741,11 @@
               "base_probability": 10000,
               "level_add_probability": 0,
               "probability": 10000,
-              "base_value1": 2500,
-              "base_value2": 2500,
-              "base_value3": 2500,
+              "base_value1": 3000,
+              "base_value2": 3000,
+              "base_value3": 3000,
               "level_add_value": 0,
-              "effect_value": 2500
+              "effect_value": 3000
             },
             {
               "condition_effect_type": 9,
@@ -170720,7 +172794,7 @@
               "probability": 10000
             }
           ],
-          "skill_level_group_id": 3009,
+          "skill_level_group_id": 3003,
           "skill_filter_groups": [
             {
               "master_skill_filter_group_id": 21500000000001,
@@ -171155,7 +173229,7 @@
       "rarity": 5,
       "element": "SpecialEffectElementEnhancedEarth",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 2562,
+      "master_pc_level_group_id": 52562,
       "master_statusboard_id": 1700002562,
       "master_enhanced_statusboard_id": null,
       "master_leader_skill_element_type_2": "Physics",
@@ -171259,7 +173333,7 @@
           "label": "AlbisXmas2024_bless_02",
           "kind": "bless",
           "name": "Dearest Flash",
-          "description_max_level": "Applies barrier stack x<color=#2BE41D>1</color> each to all allies (Unlimited)\nIncreases Soul of Combos damage until the end of battle by <color=#2BE41D>30%</color> (Unlimited)\nIncreases Soul of Divine Protection's skill point increase by <color=#2BE41D>300%</color> (Turns: 1)",
+          "description_max_level": "Applies barrier stack x<color=#2BE41D>2</color> each to all allies (Unlimited)\nIncreases Soul of Combos damage until the end of battle by <color=#2BE41D>30%</color> (Unlimited)\nIncreases Soul of Divine Protection's skill point increase by <color=#2BE41D>300%</color> (Turns: 1)",
           "icon_path": "Image/Skill/085/02/{1}/IcSkill_085_02_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -171270,11 +173344,11 @@
               "base_probability": 10000,
               "level_add_probability": 0,
               "probability": 10000,
-              "base_value1": 1,
-              "base_value2": 1,
-              "base_value3": 1,
+              "base_value1": 2,
+              "base_value2": 2,
+              "base_value3": 2,
               "level_add_value": 0,
-              "effect_value": 1
+              "effect_value": 2
             }
           ],
           "battle_card_effects": [
@@ -171763,7 +173837,7 @@
           "label": "HimmelDefault_bless_01",
           "kind": "bless",
           "name": "Demon King Vanquisher",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Adventurer</color> Force characters to dark attribute enemies by <color=#2BE41D>120%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Adventurer</color> Force characters to dark attribute enemies by <color=#2BE41D>120%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/08/{1}/IcSkill_072_08_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -172491,7 +174565,7 @@
       "rarity": 5,
       "element": "SpecialEffectElementEnhancedWater",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 2562,
+      "master_pc_level_group_id": 52562,
       "master_statusboard_id": 1700002562,
       "master_enhanced_statusboard_id": null,
       "master_leader_skill_element_type_2": "Physics",
@@ -172595,7 +174669,7 @@
           "label": "VeldoraCreator01_bless_02",
           "kind": "bless",
           "name": "Disaster Hurricane",
-          "description_max_level": "Increases wind and water characters' secret skill gauge by <color=#2BE41D>100%</color>\nIncreases ATK for all allies including rearguard by <color=#2BE41D>30%</color> (Turns: 1; If activated within 5 turns of battle start, effect amount x2: <color=#2BE41D>60%</color>)\nChanges all souls newly added to hand to Soul of Divine Protection (Turns: 1)",
+          "description_max_level": "Increases wind and water characters' secret skill gauge by <color=#2BE41D>100%</color>\nIncreases ATK for all allies including rearguard by <color=#2BE41D>100%</color> (Turns: 1)\nChanges all souls into Soul of Divine Protection",
           "icon_path": "Image/Skill/041/13/{1}/IcSkill_041_13_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [
@@ -172628,20 +174702,20 @@
               "parameter_type": 1,
               "value_type": 0,
               "buff_type": 1,
-              "base_effect_value": 6000,
+              "base_effect_value": 10000,
               "level_add_effect_value": 0,
-              "effect_value": 6000
+              "effect_value": 10000
             }
           ],
           "battle_condition_effects": [],
           "battle_card_effects": [],
           "battle_system_effects": [
             {
-              "system_effect_type": 11,
+              "system_effect_type": 3,
               "normal_card_type": 2,
-              "base_effect_value": 10000,
+              "base_effect_value": 6,
               "level_add_effect_value": 0,
-              "effect_value": 10000,
+              "effect_value": 6,
               "base_probability": 10000,
               "level_add_probability": 0,
               "probability": 10000
@@ -172653,6 +174727,11 @@
               "master_skill_filter_group_id": 21500000000001,
               "category_name": "DamageUP",
               "sub_category_label": "ATK UP"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000140,
+              "category_name": "BuffChangeAct",
+              "sub_category_label": "All → Divine Protection"
             },
             {
               "master_skill_filter_group_id": 21500000000164,
@@ -173076,7 +175155,7 @@
       "rarity": 5,
       "element": "SpecialEffectElementEnhancedFire",
       "master_character_tactics_type": "ExtremeDefense",
-      "master_pc_level_group_id": 2563,
+      "master_pc_level_group_id": 52563,
       "master_statusboard_id": 1700002563,
       "master_enhanced_statusboard_id": null,
       "master_leader_skill_element_type_2": "Magic",
@@ -173180,7 +175259,7 @@
           "label": "MasayukiSchool2025_bless_02",
           "kind": "bless",
           "name": "Flicker Slave",
-          "description_max_level": "Applies Healing Reckoning to all allies (Turns: 3); each time affected ally recovers HP, adds Reckoning charge x<color=#2BE41D>2</color> (Each charge x1 deals <color=#2BE41D>150%</color> of affected allies' current HP in ongoing damage to all targets from Turn 5 onward)\nIncreases skill points by <color=#2BE41D>100</color> (Can exceed cost limit)\nDecreases the skill cost to initial value for vanguard allies",
+          "description_max_level": "Applies Healing Reckoning to all allies (Turns: 3); each time affected ally recovers HP, adds Reckoning charge x<color=#2BE41D>3</color> (Each charge x1 deals <color=#2BE41D>150%</color> of affected allies' current HP in ongoing damage to all targets from Turn 5 onward)\nIncreases skill points by <color=#2BE41D>100</color> (Can exceed cost limit)\nDecreases the skill cost to initial value for vanguard allies",
           "icon_path": "Image/Skill/031/55/{1}/IcSkill_031_55_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -174249,7 +176328,7 @@
       "rarity": 5,
       "element": "SpecialEffectElementEnhancedAir",
       "master_character_tactics_type": "ExtremeAttack",
-      "master_pc_level_group_id": 2562,
+      "master_pc_level_group_id": 52562,
       "master_statusboard_id": 1700002562,
       "master_enhanced_statusboard_id": null,
       "master_leader_skill_element_type_2": "Magic",
@@ -174277,7 +176356,7 @@
           "label": "MaskedHeroHA2025_bless_01",
           "kind": "bless",
           "name": "Fantastical Recess",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Spirit Master</color> and <color=#FFFF00>Heart of a Hero</color> Force characters to space attribute enemies by <color=#2BE41D>120%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Spirit Master</color> and <color=#FFFF00>Heart of a Hero</color> Force characters to space attribute enemies by <color=#2BE41D>120%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/07/{1}/IcSkill_072_07_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -175534,7 +177613,7 @@
           "label": "RimuruTales_bless_01",
           "kind": "bless",
           "name": "Azure Edge",
-          "description_max_level": "Increases damage done by <color=#FFFF00>World of Fantasy</color> Force characters to earth attribute enemies by <color=#2BE41D>120%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>World of Fantasy</color> Force characters to earth attribute enemies by <color=#2BE41D>120%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/07/{1}/IcSkill_072_07_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -176829,7 +178908,7 @@
           "label": "HestiaDefault_bless_01",
           "kind": "bless",
           "name": "Protective Fire",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Dungeon Crawler</color> and <color=#FFFF00>Otherworld Legend</color> Force characters to water attribute enemies by <color=#2BE41D>120%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Dungeon Crawler</color> and <color=#FFFF00>Otherworld Legend</color> Force characters to water attribute enemies by <color=#2BE41D>120%</color>; increases magic characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/04/{1}/IcSkill_072_04_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -178188,7 +180267,7 @@
           "label": "Veldora4Anniv_bless_01",
           "kind": "bless",
           "name": "Guiding Alliance",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Dragon Haki</color> and <color=#FFFF00>Exalted Champions</color> Force characters to fire attribute enemies by <color=#2BE41D>130%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Dragon Haki</color> and <color=#FFFF00>Exalted Champions</color> Force characters to fire attribute enemies by <color=#2BE41D>130%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/05/{1}/IcSkill_072_05_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -179445,7 +181524,7 @@
           "label": "RaphaelAsuna_bless_01",
           "kind": "bless",
           "name": "Heavenly Insight",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Assault Team</color> and <color=#FFFF00>Dungeon Crawler</color> Force characters to wind and dark attribute enemies by <color=#2BE41D>130%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Assault Team</color> and <color=#FFFF00>Dungeon Crawler</color> Force characters to wind and dark attribute enemies by <color=#2BE41D>130%</color>; increases physical characters' ATK and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/06/{1}/IcSkill_072_06_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -182863,7 +184942,7 @@
           "label": "RamirisHA2026_bless_01",
           "kind": "bless",
           "name": "Labyrinth Lunatic",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Dungeon Crawler</color> Force characters to light attribute enemies by <color=#2BE41D>175%</color>; increases magic characters' HP, ATK, and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Dungeon Crawler</color> Force characters to light attribute enemies by <color=#2BE41D>175%</color>; increases magic characters' HP, ATK, and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/095/01/{1}/IcSkill_095_01_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -185001,7 +187080,7 @@
           "label": "EspritDefault_bless_01",
           "kind": "bless",
           "name": "Leisurely Rapture",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Primal Demon</color> and <color=#FFFF00>Schemer</color> Force characters to fire attribute enemies by <color=#2BE41D>175%</color>; increases magic characters' HP, ATK, and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Primal Demon</color> and <color=#FFFF00>Schemer</color> Force characters to fire attribute enemies by <color=#2BE41D>175%</color>; increases magic characters' HP, ATK, and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/05/{1}/IcSkill_072_05_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -185678,7 +187757,7 @@
           "label": "HinataTeacher_bless_01",
           "kind": "bless",
           "name": "Knight's Tutelage",
-          "description_max_level": "Increases damage done by <color=#FFFF00>Protector of Peace</color> and <color=#FFFF00>Wielder of Magic</color> Force characters to space attribute enemies by <color=#2BE41D>175%</color>; increases physical characters' HP, ATK, and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit by <color=#2BE41D>50</color> until the end of battle (Max: 999)",
+          "description_max_level": "Increases damage done by <color=#FFFF00>Protector of Peace</color> and <color=#FFFF00>Wielder of Magic</color> Force characters to space attribute enemies by <color=#2BE41D>175%</color>; increases physical characters' HP, ATK, and DEF by <color=#2BE41D>25%</color>\nAt the beginning of each turn from turn 2 onward, increases skill cost limit until the end of battle by <color=#2BE41D>50</color> (Max: 999)",
           "icon_path": "Image/Skill/072/07/{1}/IcSkill_072_07_{1}_{0}",
           "cost": null,
           "battle_attack_effects": [],
@@ -187766,10 +189845,10 @@
     }
   },
   "meta": {
-    "character_count": 450,
-    "base_dir": "/tmp/wiki_gl_wg390elp",
+    "character_count": 452,
+    "base_dir": "/tmp/wiki_gl_utqowx8w",
     "text_asset_dirs": [
-      "/tmp/wiki_gl_wg390elp/TextAsset"
+      "/tmp/wiki_gl_utqowx8w/TextAsset"
     ],
     "asset_bundle_dir": null,
     "dump_cs_path": "/home/runner/work/gameless-wiki-update/gameless-wiki-update/dump.cs"
