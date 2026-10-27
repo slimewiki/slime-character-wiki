@@ -1,6 +1,6 @@
-:HL["/slime-character-wiki/_next/static/chunks/2qnhj7ljk42un.css","style"]
-:HL["/slime-character-wiki/_next/static/chunks/10m7jsaavq5rs.css","style"]
+:HL["/slime-character-wiki/_next/static/chunks/1emfo7_06_4j7.css","style"]
+:HL["/slime-character-wiki/_next/static/chunks/3ppnvgjcz6s-j.css","style"]
 :HL["/slime-character-wiki/_next/static/chunks/3227tkor5ivpj.css","style"]
 :HL["/slime-character-wiki/_next/static/chunks/2-ss8qh--dvgr.css","style"]
 :HL["/slime-character-wiki/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4184,"slots":{"children":{"name":"characters","param":null,"prefetchHints":4196,"slots":{"children":{"name":"characterId","param":{"type":"d","key":"140297","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"1Cj5iC--bJGg6ih4WO-jo"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4184,"slots":{"children":{"name":"characters","param":null,"prefetchHints":4196,"slots":{"children":{"name":"characterId","param":{"type":"d","key":"140297","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"Zavr4d32Qh-1voDs6PtKp"}
