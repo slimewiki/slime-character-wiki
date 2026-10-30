@@ -629,5 +629,13 @@
     "mini1": "Saint of the West",
     "battle3": "Hero of the Dying Light",
     "battle4": "Time-Traveling Hero"
+  },
+  {
+    "id": "octagramdemonlord2",
+    "name": "Octagram Demon Lord 2.0",
+    "protector": "Untamed Demon Lord",
+    "battle1": "Red Conqueror Demon Lord",
+    "battle2": "Mountain-Fisted Demon Lord",
+    "mini1": "Noble Blade Demon Lord"
   }
 ]
