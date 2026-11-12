@@ -21224,11 +21224,86 @@
           "condition_condition_effect_type_name": "Unknown(88)"
         }
       ]
+    },
+    {
+      "master_skill_filter_group_id": 21500000000307,
+      "category_id": 5,
+      "category_name": "AbnormalCondition",
+      "sub_category_id": 19,
+      "release_label": "",
+      "label": "Ray of Ruin",
+      "localized": {
+        "localize_id": 21500000000307,
+        "sub_category_label": "Ray of Ruin",
+        "release_label": "202611_lottery_5th_anniversary_scout_part4_start"
+      },
+      "filters": [
+        {
+          "master_skill_filter_id": 21400000000867,
+          "condition_type": 3,
+          "buff_buff_type": 0,
+          "buff_parameter_type": 0,
+          "card_target_type": 0,
+          "card_effect_type": 0,
+          "system_system_effectt_type": 0,
+          "system_normal_card_type": 0,
+          "condition_target_type": 0,
+          "condition_condition_effect_type": 86,
+          "attack_target_type": 0,
+          "attack_master_element_type": "None",
+          "attack_master_attack_type": "Physical",
+          "master_skill_filter_group_id": 21500000000307,
+          "release_label": "202611_lottery_5th_anniversary_scout_part4_start",
+          "plus_minus_type": false,
+          "buff_target_type": 0,
+          "condition_type_name": "ConditionEffect",
+          "condition_target_type_name": "RivalSideOne",
+          "attack_target_type_name": "RivalSideOne",
+          "buff_target_type_name": "RivalSideOne",
+          "buff_buff_type_name": "None",
+          "buff_parameter_type_name": "Hp",
+          "card_target_type_name": "NormalTechnique",
+          "card_effect_type_name": "BuffAttack",
+          "system_system_effectt_type_name": "ChangeHandCardTypeFromTechnique",
+          "system_normal_card_type_name": "Technique",
+          "condition_condition_effect_type_name": "Unknown(86)"
+        },
+        {
+          "master_skill_filter_id": 21400000000868,
+          "condition_type": 3,
+          "buff_buff_type": 0,
+          "buff_parameter_type": 0,
+          "card_target_type": 0,
+          "card_effect_type": 0,
+          "system_system_effectt_type": 0,
+          "system_normal_card_type": 0,
+          "condition_target_type": 1,
+          "condition_condition_effect_type": 86,
+          "attack_target_type": 0,
+          "attack_master_element_type": "None",
+          "attack_master_attack_type": "Physical",
+          "master_skill_filter_group_id": 21500000000307,
+          "release_label": "202611_lottery_5th_anniversary_scout_part4_start",
+          "plus_minus_type": false,
+          "buff_target_type": 1,
+          "condition_type_name": "ConditionEffect",
+          "condition_target_type_name": "RivalSideAll",
+          "attack_target_type_name": "RivalSideOne",
+          "buff_target_type_name": "RivalSideAll",
+          "buff_buff_type_name": "None",
+          "buff_parameter_type_name": "Hp",
+          "card_target_type_name": "NormalTechnique",
+          "card_effect_type_name": "BuffAttack",
+          "system_system_effectt_type_name": "ChangeHandCardTypeFromTechnique",
+          "system_normal_card_type_name": "Technique",
+          "condition_condition_effect_type_name": "Unknown(86)"
+        }
+      ]
     }
   ],
   "meta": {
-    "base_dir": "/tmp/wiki_gl_zixmcr0p",
-    "text_asset_dir": "/tmp/wiki_gl_zixmcr0p/TextAsset",
+    "base_dir": "/tmp/wiki_gl_b4cn_yym",
+    "text_asset_dir": "/tmp/wiki_gl_b4cn_yym/TextAsset",
     "dump_cs_path": "/home/runner/work/gameless-wiki-update/gameless-wiki-update/dump.cs"
   }
 }

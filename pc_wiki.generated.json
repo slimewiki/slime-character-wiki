@@ -151927,6 +151927,432 @@
       ]
     },
     {
+      "master_pc_id": 160703,
+      "name": "Luminus Valentine",
+      "affiliation_name": "Bloodlit Demon Lord",
+      "rarity": 6,
+      "element": "EnhancedFire",
+      "attack_type": "Physical",
+      "weapon_type": "Sword",
+      "tactics_type": "Charge",
+      "master_strategy_type_group_label": "Charge",
+      "master_character_tactics_type": "ExtremeAttack",
+      "master_pc_level_group_id": 1612,
+      "master_statusboard_id": 1700001612,
+      "master_enhanced_statusboard_id": 190000200000081,
+      "character_role": "Attacker",
+      "ultimate_type": "Attack",
+      "stats": {
+        "hp": 1095,
+        "attack": 698,
+        "defense": 502,
+        "existence": 2295
+      },
+      "images": {
+        "icon": "Image/Character/PC/Luminous5Anniv/7/Luminous5Anniv_7_CharaPartyM",
+        "full": "Image/Character/PC/Luminous5Anniv/7/Luminous5Anniv_7_CharaInfo"
+      },
+      "forces": [
+        {
+          "label": "team_4",
+          "name": "Octagram Demon Lord",
+          "group": "team",
+          "icon_path": "Image/IcCategory/team/category_140000000000028"
+        },
+        {
+          "label": "event_15",
+          "name": "Determination to Prosper",
+          "group": "event",
+          "icon_path": "Image/IcCategory/event/category_140000000000047"
+        },
+        {
+          "label": "ablity_4",
+          "name": "Schemer",
+          "group": "ability",
+          "icon_path": "Image/IcCategory/ability/category_140000000000021"
+        },
+        {
+          "label": "tribe_7",
+          "name": "Wielder of Magic",
+          "group": "ability",
+          "icon_path": "Image/IcCategory/ability/category_140000000000016"
+        }
+      ],
+      "skills": [
+        {
+          "slot": "special_skill",
+          "label": "Luminous5Anniv_special_22",
+          "kind": "special",
+          "name": "Femme Fatale",
+          "description_max_level": "Unleashes an all-target fire physical attack for <color=#2BE41D>475%</color> normal damage\n\nUse 200% of secret skill gauge to change to Ultimate Soul of Combos: Damage x2.5, Massively increases damage to weak attributes",
+          "icon_path": "Image/Character/PC/Luminous5Anniv/7/Luminous5Anniv_7_CharaCard",
+          "cost": null,
+          "battle_attack_effects": [
+            {
+              "target_type": 1,
+              "attack_type": "Physical",
+              "element_type": "EnhancedFire",
+              "attack_calc_type": 0,
+              "attack_base_type": 0,
+              "attack_base_value": 0,
+              "base_effect_value": 27000,
+              "level_add_effect_value": 20500,
+              "effect_value": 47500
+            }
+          ],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 7002,
+          "special_skill_type": "Attack"
+        },
+        {
+          "slot": "active_skill_1",
+          "label": "Luminous5Anniv_debuff_23",
+          "kind": "debuff",
+          "name": "Enchanting Nocturnal Banquet",
+          "description_max_level": "Applies Ray of Ruin to all targets (Turns: 1): HP Recovery nullified / Attacks from the character who applied the effect are sure to strike a weak point\nIncreases own Damage to Earth until the end of battle by <color=#2BE41D>100%</color> (Unlimited)\n(Uses per battle: 3)",
+          "icon_path": "Image/Skill/031/83/{1}/IcSkill_031_83_{1}_{0}",
+          "cost": 90,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 1307,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 9000,
+              "level_add_effect_value": 1000,
+              "effect_value": 10000
+            }
+          ],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 86,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 10000,
+              "base_value2": 10000,
+              "base_value3": 10000,
+              "level_add_value": 0,
+              "effect_value": 10000
+            }
+          ],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": 15,
+          "skill_change_type": "Body and Spirit Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000301,
+              "category_name": "DamageUP",
+              "sub_category_label": "Damage Potency to Earth UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000307,
+              "category_name": "AbnormalCondition",
+              "sub_category_label": "Ray of Ruin",
+              "effect_family": "condition",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideOne",
+              "target_team": "enemy",
+              "target_scope": "single"
+            }
+          ]
+        },
+        {
+          "slot": "active_skill_2",
+          "label": "Luminous5Anniv_debuff_24",
+          "kind": "debuff",
+          "name": "Phantasmic Flickering Flame",
+          "description_max_level": "Decreases all targets' fire+ damage resistance by <color=#2BE41D>-80%</color> (Turns: 1)\nIncreases EX Soul of Combos damage by <color=#2BE41D>170%</color> (Turns: 1)",
+          "icon_path": "Image/Skill/064/10/{1}/IcSkill_064_10_{1}_{0}",
+          "cost": 110,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 1,
+              "parameter_type": 1522,
+              "value_type": 1,
+              "buff_type": 2,
+              "base_effect_value": -7000,
+              "level_add_effect_value": -1000,
+              "effect_value": -8000
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [
+            {
+              "card_target_type": 5,
+              "card_effect_type": 8,
+              "base_effect_value": 17000,
+              "level_add_effect_value": 0,
+              "effect_value": 17000,
+              "base_effect_max_value": 17000,
+              "level_add_effect_max_value": 0,
+              "effect_max_value": 17000
+            }
+          ],
+          "battle_system_effects": [],
+          "skill_level_group_id": 24,
+          "skill_change_type": "Defense Changing",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000087,
+              "category_name": "DamageUP",
+              "sub_category_label": "EX Soul of Combos Damage UP",
+              "effect_family": "card",
+              "raw_effect_polarity": "buff"
+            },
+            {
+              "master_skill_filter_group_id": 21500000000205,
+              "category_name": "DamageUP",
+              "sub_category_label": "Fire+<br>Damage Resistance DOWN",
+              "effect_family": "buff",
+              "raw_effect_polarity": "debuff",
+              "target_type_name": "RivalSideAll",
+              "target_team": "enemy",
+              "target_scope": "all"
+            }
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "slot": "arousal_trait",
+          "label": "Luminous5Anniv_debuff_50",
+          "kind": "debuff",
+          "name": "Switch - Skill Seal Initial Conditions",
+          "description_max_level": "When you switch this character to the vanguard and activate souls, all enemies' magic-changing battle skills are sealed (Turns: 1; Uses by this character per battle: 1)",
+          "icon_path": "L10NAssets/En/Image/ArenaPassiveSkill/031/29/1/IcArenaPassiveSkill_031_29_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 24,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 1000,
+              "base_value2": 1000,
+              "base_value3": 1000,
+              "level_add_value": 0,
+              "effect_value": 1000
+            }
+          ],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Initial Conditions"
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "Luminous5Anniv_passive_30",
+          "kind": "passive",
+          "name": "HP - Synergy Damage UP",
+          "description_max_level": "When you have 75% or more HP, increases own synergy power by 8% at start of turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/081/02/1/IcPassiveSkill_081_02_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 317,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 800,
+              "level_add_effect_value": 0,
+              "effect_value": 800
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 1/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000022,
+              "category_name": "DamageUP",
+              "sub_category_label": "Synergy Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "Luminous5Anniv_debuff_51",
+          "kind": "debuff",
+          "name": "Switch - Skill Seal",
+          "description_max_level": "When you switch this character to the vanguard and activate souls, all enemies' magic-changing battle skills are sealed (Turns: 1; Uses by this character per battle: 2)",
+          "icon_path": "L10NAssets/En/Image/ArenaPassiveSkill/031/29/2/IcArenaPassiveSkill_031_29_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [
+            {
+              "condition_effect_type": 24,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000,
+              "base_value1": 1000,
+              "base_value2": 1000,
+              "base_value3": 1000,
+              "level_add_value": 0,
+              "effect_value": 1000
+            }
+          ],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 2/5"
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "Luminous5Anniv_passive_31",
+          "kind": "passive",
+          "name": "HP - Synergy Damage UP",
+          "description_max_level": "When you have 75% or more HP, increases own synergy power by 12% at start of turn (available in support formation)",
+          "icon_path": "Image/PassiveSkill/081/02/2/IcPassiveSkill_081_02_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [
+            {
+              "target_type": 5,
+              "parameter_type": 317,
+              "value_type": 1,
+              "buff_type": 1,
+              "base_effect_value": 1200,
+              "level_add_effect_value": 0,
+              "effect_value": 1200
+            }
+          ],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 3/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000022,
+              "category_name": "DamageUP",
+              "sub_category_label": "Synergy Power UP",
+              "effect_family": "buff",
+              "raw_effect_polarity": "buff",
+              "target_type_name": "Self",
+              "target_team": "self",
+              "target_scope": "self"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "Luminous5Anniv_passive_32",
+          "kind": "passive",
+          "name": "Troop - Skill UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases skill points by 3 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/15/1/IcPassiveSkill_041_15_1",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 21,
+              "normal_card_type": 5,
+              "base_effect_value": 3,
+              "level_add_effect_value": 0,
+              "effect_value": 3,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 4/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000132,
+              "category_name": "GageUP",
+              "sub_category_label": "Skill Point UP",
+              "effect_family": "system"
+            }
+          ]
+        },
+        {
+          "slot": "arousal_trait",
+          "label": "Luminous5Anniv_passive_33",
+          "kind": "passive",
+          "name": "Troop - Skill UP",
+          "description_max_level": "When your troop contains 3 or more battle characters, increases skill points by 5 every 2 turns (available in support formation)",
+          "icon_path": "Image/PassiveSkill/041/15/2/IcPassiveSkill_041_15_2",
+          "cost": null,
+          "battle_attack_effects": [],
+          "battle_buff_effects": [],
+          "battle_condition_effects": [],
+          "battle_card_effects": [],
+          "battle_system_effects": [
+            {
+              "system_effect_type": 21,
+              "normal_card_type": 5,
+              "base_effect_value": 5,
+              "level_add_effect_value": 0,
+              "effect_value": 5,
+              "base_probability": 10000,
+              "level_add_probability": 0,
+              "probability": 10000
+            }
+          ],
+          "skill_level_group_id": null,
+          "unlock": "Awaken 5/5",
+          "skill_filter_groups": [
+            {
+              "master_skill_filter_group_id": 21500000000132,
+              "category_name": "GageUP",
+              "sub_category_label": "Skill Point UP",
+              "effect_family": "system"
+            }
+          ]
+        }
+      ],
+      "ex_abilities": [
+        {
+          "name": "Individual Mercy",
+          "description": "Increases own following status when Rimuru Tempest is assigned to a battle slot.",
+          "effects": [
+            "<color=#2BE41D>Increases synergy power by 12%</color>"
+          ]
+        },
+        {
+          "name": "Physical Mercy",
+          "description": "Increases own following status in accordance with the number of physical attack characters assigned to battle slots.",
+          "effects": [
+            "<color=#2BE41D>Increases HP by 396</color>",
+            "<color=#2BE41D>Increases ATK by 200</color>",
+            "<color=#2BE41D>Increases DEF by 116</color>"
+          ]
+        }
+      ],
+      "release_date": "2026/11/12",
+      "facilities": [
+        "Tableware Store +30%",
+        "Dango Shop +10%"
+      ]
+    },
+    {
       "master_pc_id": 250001,
       "name": "Orc Disaster",
       "affiliation_name": "Starved",
@@ -192787,10 +193213,10 @@
     }
   },
   "meta": {
-    "character_count": 459,
-    "base_dir": "/tmp/wiki_gl_zixmcr0p",
+    "character_count": 460,
+    "base_dir": "/tmp/wiki_gl_b4cn_yym",
     "text_asset_dirs": [
-      "/tmp/wiki_gl_zixmcr0p/TextAsset"
+      "/tmp/wiki_gl_b4cn_yym/TextAsset"
     ],
     "asset_bundle_dir": null,
     "dump_cs_path": "/home/runner/work/gameless-wiki-update/gameless-wiki-update/dump.cs"
